@@ -1,7 +1,10 @@
 package study.java.foundation.file;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.net.URL;
 import java.util.Enumeration;
 import java.util.Iterator;
@@ -11,6 +14,17 @@ import java.util.Properties;
 
 public class SystemUtils {
 	 
+	static{
+		try {
+			System.setOut(new PrintStream(new File(System.getProperty("user.dir") + File.separator+"/src/main/java/study/java/foundation/file/log")));
+			System.setErr(new PrintStream(new File(System.getProperty("user.dir") + File.separator+"/src/main/java/study/java/foundation/file/errlog")));
+			System.setIn(new FileInputStream(new File(System.getProperty("user.dir") + File.separator+"/src/main/java/study/java/foundation/file/inlog")));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	public void showPath() throws IOException {
          // 第一种：获取类加载的根路径  F:\workspace\myRepo\lichee\java_foundation\target\test-classes
          File f = new File(this.getClass().getResource("/").getPath());
@@ -72,6 +86,8 @@ public class SystemUtils {
         }
         
 	}
+	
+	
 	
 	
 	

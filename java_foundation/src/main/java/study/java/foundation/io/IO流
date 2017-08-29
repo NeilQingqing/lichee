@@ -1,0 +1,173 @@
+IO流
+1.java.io包中堵塞型IO；
+2.java.nio包中的非堵塞型IO，通常称为New IO
+
+1.流式部分――IO的主体部分；
+2.非流式部分――主要包含一些辅助流式部分的类，如：File类、RandomAccessFile类和FileDescriptor等类；
+3.文件读取部分的与安全相关的类，如：SerializablePermission类。以及与本地操作系统相关的文件系统的类，如：FileSystem类和Win32FileSystem类和WinNTFileSystem类。
+
+ 流式部分可以概括为：两个对应一个桥梁。
+ 两个对应指：
+ 1.字节流（Byte Stream）和字符流（Char Stream）的对应；
+ 2.输入和输出的对应。
+   一个桥梁指：从字节流到字符流的桥梁。对应于输入和输出为InputStreamReader和OutputStreamWriter。
+    在流的具体类中又可以具体分为：
+    1.介质流（Media Stream或者称为原始流Raw Stream）――主要指一些基本的流，
+                 他们主要是从具体的介质上，如：文件、内存缓冲区（Byte数组、Char数组、StringBuffer对象）等，读取数据；
+    2.过滤流（Filter Stream）――主要指所有FilterInputStream/FilterOutputStream
+                 和FilterReader/FilterWriter的子类，主要是对其包装的类进行某些特定的处理，如：缓存等。
+
+
+1.字符流
+字符写出流
+1. Writer是所有的输出字符流的父类，它是一个抽象类。
+2. CharArrayWriter、StringWriter是两种基本的介质流，它们分别向Char数组、String中写入数据。PipedWriter是向与其它线程共用的管道中写入数据，
+3. BufferedWriter是一个装饰器为Writer提供缓冲功能。
+4. PrintWriter和PrintStream极其类似，功能和使用也非常相似。
+5. OutputStreamWriter是OutputStream到Writer转换的桥梁，它的子类FileWriter其实就是一个实现此功能的具体类（具体可以研究一下Source Code）。
+
+java.io.Writer
+All Implemented Interfaces: 
+	Closeable, Flushable, Appendable, AutoCloseable 
+
+Direct Known Subclasses: 
+	BufferedWriter
+	CharArrayWriter
+	FilterWriter
+	OutputStreamWriter ---> FileWriter 
+	PipedWriter
+	PrintWriter
+	StringWriter 
+
+字符读入流	
+1.Reader是所有的输入字符流的父类，它是一个抽象类。
+2.CharReader、StringReader是两种基本的介质流，它们分别将Char数组、String中读取数据。PipedReader是从与其它线程共用的管道中读取数据。
+3.BufferedReader很明显就是一个装饰器，它和其子类负责装饰其它Reader对象。
+4.FilterReader是所有自定义具体装饰流的父类，其子类PushbackReader对Reader对象进行装饰，会增加一个行号。
+5.InputStreamReader是一个连接字节流和字符流的桥梁，它将字节流转变为字符流。FileReader可以说是一个达到此功能、常用的工具类，在其源代码中明显使用了将FileInputStream转变为Reader的方法。我们可以从这个类中得到一定的技巧。
+
+java.io.Reader 
+All Implemented Interfaces: 
+	Closeable, AutoCloseable, Readable 
+
+Direct Known Subclasses: 
+	BufferedReader    ---> LineNumberReader
+	CharArrayReader 
+	FilterReader      --->  PushbackReader 
+	InputStreamReader --->  FileReader 
+	PipedReader
+	StringReader 
+	
+	
+	
+2.字节流
+字节输入流
+1. InputStream是所有的输入字节流的父类，它是一个抽象类。
+2. ByteArrayInputStream、StringBufferInputStream、FileInputStream是三种基本的介质流，它们分别将Byte数组、StringBuffer、和本地文件中读取数据。PipedInputStream是从与其它线程共用的管道中读取数据。
+3. ObjectInputStream和所有FilterInputStream的子类都是装饰流（装饰器模式的主角）。
+
+
+
+java.io.InputStream  是所有的输入字节流的父类，它是一个抽象类
+All Implemented Interfaces: 
+	Closeable, AutoCloseable 
+	
+Direct Known Subclasses: 
+	AudioInputStream
+	InputStream  --->  org.omg.CORBA.portable.InputStream 
+	ObjectInputStream 
+	ByteArrayInputStream 
+		将内存中的Byte数组适配为一个InputStream。从内存中的Byte数组创建该对象（2种方法）
+	            一般作为数据源，会使用其它装饰流提供额外的功能，一般都建议加个缓冲功能。
+	StringBufferInputStream  
+		将内存中的字符串适配为一个InputStream。
+	             从一个String对象创建该对象。底层的实现使用StringBuffer。该类被Deprecated。主要原因是StringBuffer不应该属于字节流，所以推荐使用StringReader。
+		 一般作为数据源，同样会使用其它装饰器提供额外的功能。				              
+	FileInputStream  	
+		最基本的文件输入流。主要用于从文件中读取信息。
+		通过一个代表文件路径的 String、File对象或者 FileDescriptor对象创建。
+		一般作为数据源，同样会使用其它装饰器提供额外的功能。
+	PipedInputStream 
+		读取从对应PipedOutputStream写入的数据。在流中实现了管道的概念。
+	            利用对应的PipedOutputStream创建。
+	            在多线程程序中作为数据源，同样会使用其它装饰器提供额外的功能。
+	SequenceInputStream 
+		将2个或者多个InputStream 对象转变为一个InputStream.
+		使用两个InputStream 或者内部对象为InputStream 的Enumeration对象创建该对象。
+		一般作为数据源，同样会使用其它装饰器提供额外的功能。
+	FilterInputStream 
+		给其它被装饰对象提供额外功能的抽象类
+		Direct Known Subclasses:
+		    CheckedInputStream 
+			CipherInputStream 
+			DeflaterInputStream 
+			ProgressMonitorInputStream 
+			DigestInputStream 
+			InflaterInputStream  
+			BufferedInputStream 
+				使用该对象阻止每次读取一个字节都会频繁操作IO。将字节读取一个缓存区，从缓存区读取。
+				利用一个InputStream、或者带上一个自定义的缓存区的大小构造。
+				使用InputStream的方法读取，只是背后多一个缓存的功能。设计模式中透明装饰器的应用。
+			DataInputStream 
+				一般和DataOutputStream配对使用,完成基本数据类型的读写。
+				利用一个InputStream构造。
+				提供了大量的读取基本数据类新的读取方法。
+			LineNumberInputStream
+				跟踪输入流中的行号。可以调用getLineNumber( )和 setLineNumber(int)方法得到和设置行号。
+				利用一个InputStream构造。
+				紧紧增加一个行号。可以象使用其它InputStream一样使用。
+			PushbackInputStream 
+				可以在读取最后一个byte 后将其放回到缓存中。
+				利用一个InputStream构造。
+				一般仅仅会在设计compiler的scanner 时会用到这个类。在我们的java语言的编译器中使用它。很多程序员可能一辈子都不需要。
+	
+	
+	
+字节输出流	
+1. OutputStream是所有的输出字节流的父类，它是一个抽象类。
+2. ByteArrayOutputStream、FileOutputStream是两种基本的介质流，它们分别向Byte数组、和本地文件中写入数据。PipedOutputStream是向与其它线程共用的管道中写入数据。 
+3. ObjectOutputStream和所有FilterOutputStream的子类都是装饰流。
+java.io.OutputStream 
+All Implemented Interfaces: 
+	Closeable, Flushable, AutoCloseable 
+	
+Direct Known Subclasses: 
+	ObjectOutputStream 
+	OutputStream       --->   org.omg.CORBA.portable.OutputStream 
+	ByteArrayOutputStream 
+		在内存中创建一个buffer。所有写入此流中的数据都被放入到此buffer中。
+                        无参或者使用一个可选的初始化buffer的大小的参数构造。
+	            一般将其和FilterOutputStream套接得到额外的功能。建议首先和BufferedOutputStream套接实现缓冲功能。通过toByteArray方法可以得到流中的数据。（不通明装饰器的用法）
+	FileOutputStream 
+		将信息写入文件中。
+		使用代表文件路径的String、File对象或者 FileDescriptor对象创建。还可以加一个代表写入的方式是否为append的标记。
+		一般将其和FilterOutputStream套接得到额外的功能。
+	PipedOutputStream   
+		任何写入此对象的信息都被放入对应PipedInputStream 对象的缓存中，从而完成线程的通信，实现了“管道”的概念。具体在后面详细讲解。
+		利用PipedInputStream构造
+		在多线程程序中数据的目的地的。一般将其和FilterOutputStream套接得到额外的功
+	FilterOutputStream 
+		实现装饰器功能的抽象类。为其它OutputStream对象增加额外的功能。
+		Direct Known Subclasses: 
+		    CheckedOutputStream 
+    		CipherOutputStream 
+    		DeflaterOutputStream 
+    		DigestOutputStream 
+    		InflaterOutputStream 
+    		BufferedOutputStream 
+    			使用它可以避免频繁地向IO写入数据，数据一般都写入一个缓存区，在调用flush方法后会清空缓存、一次完成数据的写入。
+				从一个OutputStream或者和一个代表缓存区大小的可选参数构造。
+				提供和其它OutputStream一致的接口，只是内部提供一个缓存的功能。
+    		DataOutputStream 
+    			通常和DataInputStream配合使用，使用它可以写入基本数据类新。
+				使用OutputStream构造
+				包含大量的写入基本数据类型的方法。
+    		PrintStream 	
+    			产生具有格式的输出信息。（一般地在java程序中DataOutputStream用于数据的存储，即J2EE中持久层完成的功能，PrintStream完成显示的功能，类似于J2EE中表现层的功能）
+				使用OutputStream和一个可选的表示缓存是否在每次换行时是否flush的标记构造。还提供很多和文件相关的构造方法。
+				一般是一个终极（“final”）的包装器，很多时候我们都使用它！	
+
+	
+
+
+	
