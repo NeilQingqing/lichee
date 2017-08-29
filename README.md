@@ -1,0 +1,2 @@
+# lichee
+Study software technolegy
