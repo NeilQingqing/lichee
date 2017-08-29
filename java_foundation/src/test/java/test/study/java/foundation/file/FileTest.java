@@ -30,8 +30,14 @@ public class FileTest {
 	
 	@Test
 	public void testFileStudy() throws IOException{
-		File file = fileStudy.createFile();
-		fileStudy.deleteFile(file);
+		File file = new File(System.getProperty("user.dir"));
+	    fileStudy.createFile();
+//		fileStudy.showFile();
+		fileStudy.filterFile();
+		fileStudy.showDir(file);
+		
+		
+//		fileStudy.deleteFile(file);
 	}
 	
 	

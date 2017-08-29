@@ -1,6 +1,7 @@
 package study.java.foundation.file;
 
 import java.io.File;
+import java.io.FilenameFilter;
 import java.io.IOException;
 
 /**
@@ -106,8 +107,50 @@ public class FileStudy {
     	}
     }
 	
+    // 列出磁盘下的文件和文件夹
+    public void showFile(){
+    	File[] files =File.listRoots();
+        for(File file:files){
+            System.out.println("******************"+file);
+            if(file.length()>0){
+                String[] filenames =file.list();
+                for(String filename:filenames){
+                    System.out.println(filename);
+                }
+            }
+        }
+    }
     
+    //文件过滤
+    public void filterFile(){
+        File[] files =File.listRoots();
+        for(File file:files){
+            System.out.println(file);
+            if(file.length()>0){
+                String[] filenames =file.list(new FilenameFilter(){
+                    //file 过滤目录 name 文件名
+                    public boolean accept(File file,String filename){
+                        return filename.endsWith(".pdf");
+                    }
+                });
+                for(String filename:filenames){
+                    System.out.println(filename);
+                }
+            }
+        }
+    }
     
-    
+    //列出目录下所有文件
+    public void showDir(File dir){
+        System.out.println(dir);
+        File[] files =dir.listFiles();
+        for(File file:files){
+            if(file.isDirectory())
+                showDir(file);
+            else
+                System.out.println(file);
+        }
+    }
+  
     
 }
