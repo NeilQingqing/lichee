@@ -7,7 +7,7 @@ import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.InterfaceMaker;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
-
+//InterfaceMaker会动态生成一个接口，该接口包含指定类定义的所有方法。
 public class CGLibInterfaceMakerTest {
 	 public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {  
 	        InterfaceMaker interfaceMaker =new InterfaceMaker();  
