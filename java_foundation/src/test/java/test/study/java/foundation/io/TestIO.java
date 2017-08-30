@@ -64,4 +64,9 @@ public class TestIO {
 	public void testStreamTokenizer() {
 		iOCharStudy.streamTokenizerTest();
 	}
+	
+	@Test
+	public void testPipedStream(){
+		ioStudy.pipedStreamTest();
+	}
 }
