@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>test</comment>
+<entry key="li">23</entry>
+<entry key="limingw">female</entry>
+<entry key="liming">999</entry>
+<entry key="xiao">82</entry>
+<entry key="limingq">male</entry>
+<entry key="ming">25</entry>
+</properties>
