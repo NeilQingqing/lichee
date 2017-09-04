@@ -1,0 +1,23 @@
+java ssl证书部分
+
+首先使用Java自带的keytool工具生成所需的证书：
+
+1，创建服务端keystore
+
+keytool -genkey -keystore F:\workspace\P2PShare\restserver\server.jks -storepass 1234sp -keyalg RSA -keypass 1234kp  
+2，创建客户端keystore
+
+keytool -genkey -keystore F:\workspace\P2PShare\restserver\client.jks -storepass 1234sp -keyalg RSA -keypass 1234kp  
+3，导出服务端证书
+
+keytool -export -keystore F:\workspace\P2PShare\restserver\server.jks -storepass 1234sp -file F:\workspace\P2PShare\restserver\server.cer  
+4，导出客户端证书
+
+keytool -export -keystore F:\workspace\P2PShare\restserver\client.jks -storepass 1234sp -file F:\workspace\P2PShare\restserver\client.cer  
+5，将服务端证书导入到客户端trustkeystroe
+
+keytool -import -keystore F:\workspace\P2PShare\restserver\clientTrust.jks -storepass 1234sp -file F:\workspace\P2PShare\restserver\server.cer  
+6，将客户端证书导入到服务端trustkeystroe
+
+keytool -import -keystore F:\workspace\P2PShare\restserver\serverTrust.jks -storepass 1234sp -file F:\workspace\P2PShare\restserver\client.cer  
+

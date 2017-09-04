@@ -1,12 +1,10 @@
 package study.java.foundation.netty;
 
-import java.util.Date;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.ChannelHandlerAdapter;
 
-public class TimeClientHandler extends ChannelInboundHandlerAdapter {
+public class TimeClientHandler extends ChannelHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         ByteBuf m = (ByteBuf) msg; // (1)

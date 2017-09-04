@@ -1,0 +1,18 @@
+Hadoop权威指南
+
+1.检查文件系统的块信息命令
+hdfs fsck / -files -blocks
+2.本地文件传入hadoop
+hdfs dfs -copyFromLocal localPath hadoopPath(hdfs://IP/path == path)
+hdfs dfs -put localPath hadoopPath(hdfs://IP/path == path)
+3.hadoop数据下载到本地
+hdfs dfs -copyToLocal hadoopPath(hdfs://IP/path == path) localPath 
+hdfs dfs -get hadoopPath(hdfs://IP/path == path) localPath 
+
+
+hadoop archive -archiveName zoo.har -p /data/input/ /data/
+
+
+ CONN SYS/123Qazwsx AS SYSDBA;
+ 
+ ALTER sys SYSTEM IDENTIFIED BY "123Qazwsx";

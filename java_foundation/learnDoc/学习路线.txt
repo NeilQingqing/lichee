@@ -1,0 +1,329 @@
+
+已熟悉的技术
+	
+	java
+	html
+	css
+	
+	lucence
+	solr
+	
+	hadoop/hive/hbase
+	spark
+    zookeeper
+	drools
+	jersey
+	jenkins
+	
+    maven/nexus
+	svn/github
+	tomcat
+	jetty
+	
+	mqtt协议
+	
+
+
+20170816
+	js
+	ajax
+	
+20170816
+	redis
+	memoracahe
+	mysql
+	oracle
+	postgresql
+	mongodb
+
+	Spring boot
+	spring MVC
+	Hibernate
+	Struts2
+	Mybatis
+	shiro
+	druid
+	
+	Elasticsearch
+	
+	python 
+	linux shell
+	scala 
+	
+	
+	
+	nodejs
+	requirejs
+	handlebars
+	angularjs
+	extjs
+	
+	
+	nio/netty
+	RPC : dubbo/thrift
+	nginx
+	
+	MQ
+	
+	
+	cafe
+	storm
+	
+	docker
+	
+	
+	tcp/ip
+	数学、算法
+	编译原理
+	嵌入式
+	硬件
+	机器学习 TensorFlow
+	人工智能 
+	
+	
+	hessian、protobuf、thrift、avro等成熟的序列化解决方案来搭建RPC框架
+	
+	
+	
+	apache software
+	
+	
+					
+		Overview
+				All Projects
+				Attic
+				Big Data
+				Build Management
+				Cloud
+				Content
+				Databases
+				FTP
+				Graphics
+				HTTP
+				HTTP-module
+				Incubating
+				JavaEE
+				Labs
+				Libraries
+				Mail
+				Mobile
+				Network-client
+				Network-server
+				OSGi
+				RegExp
+				Retired
+				Search
+				Security
+				SQL
+				Testing
+				Virtual-machine
+				Web-framework
+				XML
+		BY NAME
+				HTTP Server
+			A
+				Accumulo
+				ACE
+				ActiveMQ
+				Airavata
+				Allura
+				Ambari
+				Ant
+				Any23
+				Apex
+				APR
+				Archiva
+				Aries
+				Arrow
+				AsterixDB
+				Atlas
+				Aurora
+				Avro
+				Axis
+		B
+				Bahir
+				Beam
+				Bigtop
+				Bloodhound
+				BookKeeper
+				Brooklyn
+				Buildr
+				BVal
+		C
+				Calcite
+				Camel
+				Carbondata
+				Cassandra
+				Cayenne
+				Celix
+				Chemistry
+				Chukwa
+				Clerezza
+				CloudStack
+				Cocoon
+				Commons
+				Cordova
+				CouchDB
+				Creadur
+				Crunch
+				cTAKES
+				Curator
+				CXF
+		D
+				DB
+				DeltaSpike
+				Directory
+				Drill
+		E
+				Eagle
+				Empire-db
+	    F
+				Falcon
+				Felix
+				Fineract
+				Flex
+				Flink
+				Flume
+				Fluo
+				Forrest
+		G
+				Geode
+				Geronimo
+				Giraph
+				Gora
+				Groovy
+				Gump
+		H
+				Hadoop
+				Hama
+				HBase
+				Helix
+				Hive
+				HttpComponents
+		I
+				Isis
+				Ignite
+		J
+				Jackrabbit
+				James
+				jclouds
+				Jena
+				JMeter
+				JSPWiki
+				Johnzon
+				jUDDI
+		K
+				Kafka
+				Karaf
+				Knox
+				Kudu
+				Kylin
+		L
+				Lens
+				Libcloud
+				Logging
+				Lucene
+				Lucene.Net
+				Lucy
+		M
+				MADlib
+				Mahout
+				ManifoldCF
+				Marmotta
+				Maven
+				Mesos
+				MetaModel
+				Metron
+				MINA
+				MyFaces
+				Mynewt
+		N
+				Nutch
+				Nifi
+	    O
+				ODE
+				OFBiz
+				Olingo
+				Oltu
+				OODT
+				Oozie
+				Open Climate Workbench
+				OpenJPA
+				OpenMeetings
+				OpenNLP
+				OpenOffice
+				OpenWebBeans
+				ORC
+		P
+				Parquet
+				PDFBox
+				Perl
+				Phoenix
+				Pig
+				Pivot
+				POI
+				Polygene
+				Portals
+		Q
+				Qpid
+		R
+				Ranger
+				REEF
+				River
+				Roller
+		S
+				Samza
+				Santuario
+				Sentry
+				Serf
+				ServiceMix
+				Shiro
+				SIS
+				Sling
+				SpamAssassin
+				Spark
+				Sqoop
+				Stanbol
+				STeVe
+				Storm
+				Streams
+				Struts
+				Subversion
+				Synapse
+				Syncope
+				SystemML
+		T
+				Tajo
+				Tapestry
+				Tcl
+				Tez
+				Thrift
+				Tika
+				Tiles
+				Tinkerpop
+				Tomcat
+				TomEE
+				Traffic Server
+				Turbine
+				Twill
+		U
+				UIMA
+				Usergrid
+		V
+				VCL
+				Velocity
+				VXQuery
+		W
+				Web Services
+				Whimsy
+				Wicket
+		X
+				Xalan
+				Xerces
+				XMLBeans
+				XML Graphics
+		Y
+				Yetus
+		Z
+				Zeppelin
+				ZooKeeper

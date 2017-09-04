@@ -1,0 +1,102 @@
+1.第一个springboot应用基本过程
+
+新建一个HelloController
+编写springboot启动类
+进行启动测试
+
+2.springboot返回json数据
+
+直接返回就可以
+
+3.调用第三方的json解析框架
+方法一：
+(1)启动类继承  WebMvcConfigurationAdapter 在2.0.3M版本中用 WebMvcConfigurer
+(2)覆盖方法  configureMessageConverters
+代码如下
+    @Override
+	public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+		WebMvcConfigurer.super.configureMessageConverters(converters);
+		/**
+		 * 定义一个转换消息的对象 FastJsonHttpMessageConverter
+		 * 添加 FastJsonConfig的配置项
+		 * FastJsonConfig 添加到 FastJsonHttpMessageConverter
+		 * FastJsonHttpMessageConverter 添加 到 converters
+		 */
+		FastJsonHttpMessageConverter fastJsonHttpMessageConverter = new FastJsonHttpMessageConverter();
+		FastJsonConfig 	fastJsonConfig = new FastJsonConfig();
+		
+		fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
+		fastJsonHttpMessageConverter.setFastJsonConfig(fastJsonConfig);
+		
+		converters.add(fastJsonHttpMessageConverter);
+	}
+	
+方式二:bean注入的方式
+
+    @Bean
+	public HttpMessageConverters  fastJsonHttpMessageConverter(){
+		FastJsonHttpMessageConverter fastJsonHttpMessageConverter = new FastJsonHttpMessageConverter();
+		FastJsonConfig 	fastJsonConfig = new FastJsonConfig();
+		
+		fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
+		fastJsonHttpMessageConverter.setFastJsonConfig(fastJsonConfig);
+		
+		HttpMessageConverter<?> httpMessageConverter = fastJsonHttpMessageConverter;
+        
+		return new HttpMessageConverters(httpMessageConverter);
+	}
+
+4.spring 热部署
+方式一：
+4.1 添加springloaded插件
+		Maven运行参数
+		spring-boot:run
+	这个没跑通	
+	
+4.2 添加springloaded.jar,使用run as application，添加如下参数
+-javaagent:.\lib\springloaded-1.2.7.RELEASE.jar -noverify
+新添加的api无法热部署。
+
+方式二：		
+使用	spring-boot-devtools  改变任意内容，都会自动重新部署	
+
+
+5.spring data 、spring data jpa、hibernate
+
+5.1 添加依赖
+5.2 配置application.properties
+5.3 编写实体类，采用注解，建表
+5.3.1 编写一个Repository  继承 CrudRepository
+5.4 编写Service 将Repository注入到Service
+5.5 编写controller 将 Service注入到controller实现业务
+
+6.
+Repository 是一个标记接口，可以被Spring IOC容器纳入；
+可以使用@RepositoryDefinition注解来替代实现Repository接口；
+可以使用@Query来自定义jpql语句;
+PagingAndSortingRepository  排序与分页接口;
+JpaRepository 查找所有实体、 执行缓存与数据同步、 排序查找所有实体;
+JpaSpecificationExcutor Jpa Critria查询条件;
+可以实现自己的Repository.
+
+7.spring boot jdbc template
+7.1 加入pom依赖
+7.2 编写DAO，声明为@Repository，引入jdbctemplate
+7.3 编写Service，引入DAO
+7.4 编写Controller
+
+8.404的原因：
+
+1.访问地址是不是正确：端口号、url地址，都可以在启动控制台看到
+2.确定注解是否正确：使用@RestController 而不是@Controller，@RestController == (@Controller 和 @ResponseBody)
+3.确定包的路径：spring boot可以扫描到的类是 @SpringBootApplication 所在的包或者子包中的类
+4.确定映入的包的路径是否正确
+
+9.模板引擎的使用
+添加依赖和配置
+编写模板文件
+写controller访问模板，返回值就是模板的文件名称，数据通过内置的对象传递
+freemarker 和    thymeleaf  可以共存，同时使用
+
+
+

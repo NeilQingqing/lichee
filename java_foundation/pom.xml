@@ -13,9 +13,46 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  <profiles> 
+    <profile>
+  <repositories>  
+    <repository>  
+        <!-- Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id就会覆盖中央仓库的配置 -->
+        <id>mvnrepository</id>  
+        <name>mvnrepository</name>  
+        <url>http://www.mvnrepository.com/</url>  
+        <layout>default</layout>  
+        <releases>  
+            <enabled>true</enabled>  
+        </releases>  
+        <snapshots>  
+            <enabled>false</enabled>  
+        </snapshots>  
+    </repository>  
+    <repository>  
+        <!-- Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id就会覆盖中央仓库的配置 -->
+        <id>milestonerepository</id>  
+        <name>milestonerepository</name>  
+        <url>http://repo.spring.io/milestone/</url>  
+        <layout>default</layout>  
+        <releases>  
+            <enabled>true</enabled>  
+        </releases>  
+        <snapshots>  
+            <enabled>false</enabled>  
+        </snapshots>  
+    </repository>  
+	</repositories> 
+   </profile>
+  </profiles> 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <!-- https://mvnrepository.com/artifact/junit/junit
+    * compile，缺省值，适用于所有阶段，会随着项目一起发布。 
+    * provided，类似compile，期望JDK、容器或使用者会提供这个依赖。如servlet.jar。 
+    * runtime，只在运行时使用，如JDBC驱动，适用运行和测试阶段。 
+    * test，只在测试时使用，用于编译和运行测试代码。不会随项目发布。 
+    * system，类似provided，需要显式提供包含依赖的jar，Maven不会在Repository中查找它。 
+     -->
 	<dependency>
 	    <groupId>junit</groupId>
 	    <artifactId>junit</artifactId>
@@ -63,18 +100,21 @@
 	    <groupId>com.google.protobuf</groupId>
 	    <artifactId>protobuf-java</artifactId>
 	    <version>3.4.0</version>
+	    <scope>compile</scope>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java-util -->
 	<dependency>
 	    <groupId>com.google.protobuf</groupId>
 	    <artifactId>protobuf-java-util</artifactId>
 	    <version>3.4.0</version>
+	    <scope>compile</scope>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/com.googlecode.protobuf-java-format/protobuf-java-format -->
 	<dependency>
 	    <groupId>com.googlecode.protobuf-java-format</groupId>
 	    <artifactId>protobuf-java-format</artifactId>
 	    <version>1.4</version>
+	    <scope>compile</scope>
 	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
@@ -85,6 +125,102 @@
 	    <type>pom</type>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-core</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-beans</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-web</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-test</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-aop</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-orm</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jdbc</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-tx</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-jms -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jms</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
+	<dependency>
+	    <groupId>org.springframework.security</groupId>
+	    <artifactId>spring-security-core</artifactId>
+	    <version>5.0.0.M3</version>
+	    <scope>compile</scope>
+	</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring 
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring</artifactId>
+	    <version>3.2.0.RC1</version>
+	    <scope>compile</scope>
+	</dependency>
+	-->
     
   </dependencies>
 </project>

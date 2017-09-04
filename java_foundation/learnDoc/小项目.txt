@@ -1,0 +1,30 @@
+需要完成一个小项目
+
+1.使用到的技术
+  
+  技术语言：Java、Python、scala
+  技术框架：SSH、Myabtis
+  前台技术：HTML、CSS、JS
+  前台框架：jQuery、angular、extjs、node.js
+  项目管理：Maven、本地库
+  版本管理：GIT、SVN
+  数据库：Oracle、mysql、postgrespl、mogondb、derby、redis、memcached
+  平台：Hadoop、Spark
+  辅助语言：SHELL
+  
+  支持可扩展功能：
+  决策技术：Drools
+  集成AI技术：语音识别、图像识别
+  物联网应用
+  
+2.完成的目标
+
+  使用python完成爬虫任务，抓取所需要的数据
+  返回保存，使用spark计算出来所需要的结果
+  使用java做前台呈现
+
+
+3.例如
+
+  抓取CSDN网站的搜索内容以及结果，获取开发人员关注的技术热点和难点
+  抓取淘宝网站的搜索内容以及结果，获取网购人员关注的热门产品

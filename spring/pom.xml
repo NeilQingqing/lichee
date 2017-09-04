@@ -1,0 +1,219 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>study.java.foundation</groupId>
+  <artifactId>spring</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>spring Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <!--  Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id就会覆盖中央仓库的配置-->
+  <profiles>
+  <profile>
+  <repositories>  
+ 
+    <repository>  
+        <id>mvnrepository</id>  
+        <name>mvnrepository</name>  
+        <url>http://www.mvnrepository.com/</url>  
+        <layout>default</layout>  
+        <releases>  
+            <enabled>true</enabled>  
+        </releases>  
+        <snapshots>  
+            <enabled>false</enabled>  
+        </snapshots>  
+    </repository> 
+    <repository>  
+        <id>milestonerepository</id>  
+        <name>milestonerepository</name>  
+        <url>http://repo.spring.io/milestone/</url>  
+        <layout>default</layout>  
+        <releases>  
+            <enabled>true</enabled>  
+        </releases>  
+        <snapshots>  
+            <enabled>false</enabled>  
+        </snapshots>  
+    </repository>  
+    
+     <repository>  
+        <id>clojarsrepository</id>  
+        <name>clojarsrepository</name>  
+        <url>http://clojars.org/repo/</url>  
+        <layout>default</layout>  
+        <releases>  
+            <enabled>true</enabled>  
+        </releases>  
+        <snapshots>  
+            <enabled>false</enabled>  
+        </snapshots>  
+    </repository> 
+	
+  </repositories> 
+   </profile>
+  </profiles> 
+  <!-- 有这个parent配置之后，后面的都不需要配置version -->
+  <parent>
+        <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-parent</artifactId>
+	    <version>1.5.6.RELEASE</version>
+  </parent>
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  	<java.version>1.8</java.version>
+  </properties>
+  
+  <dependencies>
+  
+
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-web</artifactId>
+	    <!--<version>2.0.0.M3</version>  -->
+	</dependency>
+	
+	 <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-loader-tools -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-loader-tools</artifactId>
+	    <!-- <version>2.0.0.M3</version> -->
+	    <scope>compile</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot</artifactId>
+	    <!-- <version>2.0.0.M3</version> -->
+	    <scope>compile</scope>
+	</dependency>
+	
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-devtools</artifactId>
+	    <optional>true</optional>
+	    <!-- <version>2.0.0.M3</version> -->
+	    <scope>compile</scope>
+	</dependency>
+	
+	<!-- 添加fastjson依赖 -->
+	<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+	<dependency>
+	    <groupId>com.alibaba</groupId>
+	    <artifactId>fastjson</artifactId>
+	    <version>1.2.38</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-maven-plugin 	-->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-maven-plugin</artifactId>
+	    <version>1.5.6.RELEASE</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <!-- <version>5.1.38</version> -->
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-data-jpa</artifactId>
+	     <!--  <version>1.5.6.RELEASE</version> -->
+	</dependency>
+	<!--  有了 spring-boot-starter-data-jpa 可以不需下面的 spring-boot-starter-jdbc
+	https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jdbc -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-jdbc</artifactId>
+	   <!--  <version>1.5.6.RELEASE</version> -->
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+	    <!--<version>1.5.6.RELEASE</version>-->
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-freemarker -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-freemarker</artifactId>
+	   <!--  <version>1.5.6.RELEASE</version> -->
+	</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	   <!--  <version>4.0.0</version> -->
+	    <scope>provided</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>jstl</artifactId>
+	   <!--  <version>1.2</version> -->
+	</dependency>
+		
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-tomcat</artifactId>
+	    <!-- <version>1.5.6.RELEASE</version> -->
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+	<dependency>
+	    <groupId>org.apache.tomcat.embed</groupId>
+	    <artifactId>tomcat-embed-jasper</artifactId>
+	    <!-- <version>9.0.0.M26</version>  -->
+	</dependency>
+	
+	
+  </dependencies>
+  <build>
+  	  <plugins>
+  	  <!-- 
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin </artifactId>
+                <dependencies>
+                    <dependency>
+                       <groupId>org.springframework</groupId>
+					   <artifactId>springloaded</artifactId>
+					   <version>1.2.7.RELEASE</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>exec</classifier>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+             -->
+             
+             <!-- 这是spring boot devtool plugin -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+			    <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!--fork :  如果没有该项配置，肯呢个devtools不会起作用，即应用不会restart -->
+                    <fork>true</fork>
+                </configuration>
+            </plugin>
+        </plugins>
+  
+    <finalName>spring</finalName>
+  </build>
+</project>

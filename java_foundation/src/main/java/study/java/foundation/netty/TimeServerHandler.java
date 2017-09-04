@@ -4,9 +4,9 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.ChannelHandlerAdapter;
 
-public class TimeServerHandler extends ChannelInboundHandlerAdapter {
+public class TimeServerHandler extends ChannelHandlerAdapter {
 	// ignore any received data but to send a message as soon as a connection is established
     @Override
     public void channelActive(final ChannelHandlerContext ctx) { // (1)

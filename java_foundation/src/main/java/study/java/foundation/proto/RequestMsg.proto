@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_outer_classname = "RequestMsgProtoBuf";
+option java_package = "study.java.foundation.proto";
+
+message RequestMsg{
+	string cmd = 1;
+	bytes param = 2;
+}

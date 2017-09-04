@@ -2,10 +2,10 @@ package study.java.foundation.netty;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.util.ReferenceCountUtil;
 
-public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
+public class DiscardServerHandler extends ChannelHandlerAdapter {
 	// This method is called with the received message, whenever new data is
 	// received from a client.
 	@Override

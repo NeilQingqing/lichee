@@ -1,0 +1,81 @@
+#Hbase 
+ZK_HOME=/usr/zookeeper-3.4.10/zookeeper-3.4.10  
+HBASE_HOME=/usr/hbase-1.2.6/hbase-1.2.6
+PATH=$HBASE_HOME/bin:$ZK_HOME/bin
+
+export JAVA_HOME=/usr/java/jdk1.8.0_131  
+export HADOOP_HOME=/usr/hadoop/hadoop-2.8.0  
+export HBASE_HOME=/usr/hbase-1.2.6/hbase-1.2.6  
+export HBASE_CLASSPATH=/usr/hadoop/hadoop-2.8.0/etc/hadoop  
+export HBASE_PID_DIR=/usr/hbase-1.2.6/hbase/pids  
+export HBASE_MANAGES_ZK=false  
+
+
+192.168.137.129  Slave1.Hadoop
+192.168.137.130  Master.Hadoop
+192.168.137.132  Slave2.Hadoop
+
+<property>  
+ <name>hbase.rootdir</name>  
+ <value>hdfs://Master.Hadoop:9000/hbase</value>  
+ <description>The directory shared byregion servers.</description>  
+</property>  
+<property>  
+ <name>hbase.zookeeper.property.clientPort</name>  
+ <value>2181</value>  
+ <description>Property from ZooKeeper'sconfig zoo.cfg. The port at which the clients will connect.  
+ </description>  
+</property>  
+<property>  
+ <name>zookeeper.session.timeout</name>  
+ <value>120000</value>  
+</property>  
+<property>  
+ <name>hbase.zookeeper.quorum</name>  
+ <value>Master.Hadoop,Slave1.Hadoop,Slave2.Hadoop</value>  
+</property>  
+<property>  
+ <name>hbase.tmp.dir</name>  
+ <value>/usr/hbase-1.2.6/hbase/tmp</value>  
+</property>  
+<property>  
+ <name>hbase.cluster.distributed</name>  
+ <value>true</value>  
+</property>  
+http://192.168.137.130:16030/rs-status
+
+
+#spark
+export SPARK_HOME=/usr/spark-2.2.0/spark-2.2.0-bin-hadoop2.7  
+export SCALA_HOME=/usr/scala-2.12.3/scala-2.12.3
+export PATH=${SCALA_HOME}/bin:${SPARK_HOME}/bin:$PATH 
+
+source /etc/profile
+scala -version  
+
+spark-env.sh
+export SCALA_HOME=/usr/scala-2.12.3/scala-2.12.3  
+export JAVA_HOME=/usr/java/jdk1.8.0_131  
+export HADOOP_HOME=/usr/hadoop/hadoop-2.8.0  
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop  
+export SPARK_HOME=/usr/spark-2.2.0/spark-2.2.0-bin-hadoop2.7  
+export SPARK_MASTER_IP=Master.Hadoop  
+export SPARK_EXECUTOR_MEMORY=1G 
+
+
+cp    slaves.template   slaves
+
+http://192.168.137.130:8080/
+./bin/spark-submit  --class  org.apache.spark.examples.SparkPi  --master local   examples/jars/spark-examples_2.11-2.2.0.jar 
+
+yarn-site.xml
+<property>   
+   <name>yarn.nodemanager.vmem-check-enabled</name>   
+   <value>false</value>   
+</property>  
+
+
+./bin/spark-submit   --class  org.apache.spark.examples.SparkPi  --master  yarn-client    examples/jars/spark-examples_2.11-2.2.0.jar 
+
+
+./bin/spark-submit  --class  org.apache.spark.examples.SparkPi  --master  yarn-cluster   examples/jars/spark-examples_2.11-2.2.0.jar 

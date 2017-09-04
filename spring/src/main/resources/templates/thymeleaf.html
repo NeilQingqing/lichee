@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+<title>thymeleaf test</title>
+</head>
+<body>
+<h1>
+开发过程中建议关闭缓存 ，等号后面不能有无关的空格<br></br>
+spring.thymeleaf.cache=false<br></br>
+thymeleaf html模板中的所有标签都是必须是闭合的，即成对出现的。不可以是单边的<br></br>
+3.0+就没有这个限制了
+
+</h1>
+
+<hr></hr>
+以下是获取后台传值的方法<br></br>
+welcome <span th:text="${name}"></span>
+
+</body>
+</html>

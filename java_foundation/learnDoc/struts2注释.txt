@@ -1,0 +1,255 @@
+1.命名空间注释（动作注释）：
+
+@ Namespace注释允许在Action类中，而不是基于零配置的约定动作的命名空间的定义。
+
+@Namespace("/content")
+public class Employee extends ActionSupport{
+  ...
+}
+结果注释 - （动作译注）：
+
+2. @ Result注解允许在Action类中，而不是一个XML文件中定义的动作结果。
+
+@Result(name="success", value="/success.jsp")
+public class Employee extends ActionSupport{
+ ...
+}
+结果注释 - （动作译注）：
+
+3.@ Results注解定义了一套动作的结果。
+
+@Results({
+   @Result(name="success", value="/success.jsp"),
+   @Result(name="error", value="/error.jsp")
+})
+public class Employee extends ActionSupport{
+ ...
+}
+注释后（拦截注释）：
+
+4.@After注解标志着一个需要调用后的主要操作方法和执行结果的操作方法。返回值将被忽略。
+
+public class Employee extends ActionSupport{
+   @After
+   public void isValid() throws ValidationException {
+      // validate model object, throw exception if failed
+   }
+   public String execute() {
+      // perform secure action
+      return SUCCESS;
+   }
+}
+注释之前（拦截注释）：
+
+5.@ Before注释标记需要一个操作方法的主要操作方法之前被调用执行结果。返回值将被忽略。
+
+public class Employee extends ActionSupport{
+   @Before
+   public void isAuthorized() throws AuthenticationException {
+      // authorize request, throw exception if failed
+   }
+   public String execute() {
+      // perform secure action
+      return SUCCESS;
+   }
+}
+6.BeforeResult注释 - （拦截注释）：
+@ BeforeResult注解标志着一个结果之前需要执行的操作方法。返回值将被忽略。
+public class Employee extends ActionSupport{
+   @BeforeResult
+   public void isValid() throws ValidationException {
+    // validate model object, throw exception if failed
+   }
+
+   public String execute() {
+      // perform action
+      return SUCCESS;
+   }
+}
+7.ConversionErrorFieldValidator注释 - （验证译注）：
+
+此验证注解如果有任何转换错误进行了实地检查，并适用于他们，如果他们存在。
+
+public class Employee extends ActionSupport{
+   @ConversionErrorFieldValidator(message = "Default message", 
+                        key = "i18n.key", shortCircuit = true)
+   public String getName() {
+       return name;
+   }
+}
+8.DateRangeFieldValidator注释 - （验证译注）：
+
+这验证注解检查日期字段的值在指定范围内。
+
+public class Employee extends ActionSupport{
+   @DateRangeFieldValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true, 
+   min = "2005/01/01", max = "2005/12/31")
+   public String getDOB() {
+       return dob;
+   }
+}
+9.DoubleRangeFieldValidator注释 - （验证译注）：
+
+此验证注解检查双字段有一个值，该值在指定范围内。如果既不最小或最大，什么都不会做的。
+
+public class Employee extends ActionSupport{
+
+   @DoubleRangeFieldValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true, 
+   minInclusive = "0.123", maxInclusive = "99.987")
+   public String getIncome() {
+       return income;
+   }
+}
+10.EmailValidator注释 - （验证译注）：
+
+这验证注解检查一个字段是一个有效的E-mail地址，如果它包含一个非空的字符串。
+
+public class Employee extends ActionSupport{
+
+   @EmailValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true)
+   public String getEmail() {
+       return email;
+   }
+}
+11.ExpressionValidator注释 - （验证译注）：
+
+这种非字段级验证验证所提供的正则表达式。
+
+@ExpressionValidator(message = "Default message", key = "i18n.key", 
+shortCircuit = true, expression = "an OGNL expression" )
+IntRangeFieldValidator注释 - （验证译注）：
+
+这验证注解检查一个数字字段的值在指定的范围内。如果既不最小或最大，什么都不会做的。
+
+public class Employee extends ActionSupport{
+
+   @IntRangeFieldValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true, 
+   min = "0", max = "42")
+   public String getAge() {
+       return age;
+   }
+}
+12.RegexFieldValidator 注释 - （验证译注）：
+
+这个注解验证一个字符串字段，使用正则表达式。
+
+@RegexFieldValidator( key = "regex.field", expression = "yourregexp")
+RequiredFieldValidator 注释 - （验证译注）：
+
+这验证注解检查一个字段不为空。标注必须被应用在方法层面。
+
+public class Employee extends ActionSupport{
+
+   @RequiredFieldValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true)
+   public String getAge() {
+       return age;
+   }
+}
+13.RequiredStringValidator注释 - （验证译注）：
+
+这验证注解检查一个字符串字段不为空（即非空，长度> 0）。
+
+public class Employee extends ActionSupport{
+
+   @RequiredStringValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true, trim = true)
+   public String getName() {
+       return name;
+   }
+}
+14.StringLengthFieldValidator注释 - （验证译注）：
+
+这个验证检查字符串字段是合适的长度。假定该字段是一个字符串。如果设置既不是minLength 也不是最大长度，什么都不会做。
+
+public class Employee extends ActionSupport{
+
+   @StringLengthFieldValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true, 
+   trim = true, minLength = "5",  maxLength = "12")
+   public String getName() {
+       return name;
+   }
+}
+15.UrlValidator注释 - （验证译注）：
+
+这个验证检查一个字段是一个有效的URL。
+
+public class Employee extends ActionSupport{
+
+   @UrlValidator(message = "Default message", 
+   key = "i18n.key", shortCircuit = true)
+   public String getURL() {
+       return url;
+   }
+}
+16.验证注释 - （验证译注）：
+
+如果想使用多个相同类型的注释，这些注释必须嵌套在@Validations() 注释。
+
+public class Employee extends ActionSupport{
+
+  @Validations(
+   requiredFields =
+      {@RequiredFieldValidator(type = ValidatorType.SIMPLE, 
+      fieldName = "customfield", 
+      message = "You must enter a value for field.")},
+   requiredStrings =
+      {@RequiredStringValidator(type = ValidatorType.SIMPLE, 
+      fieldName = "stringisrequired", 
+      message = "You must enter a value for string.")}
+   )
+   public String getName() {
+       return name;
+   }
+}
+17.CustomValidator注释 - （验证译注）：
+
+这个注解可以用于自定义验证。使用ValidationParameter的注释，以提供额外的 params.
+
+@CustomValidator(type ="customValidatorName", fieldName = "myField")
+转换注释 - （类型转换注释）：
+
+18.这是一个标记注释类型转换类型级别。转换注释必须应用在类型级别。
+
+@Conversion()
+   public class ConversionAction implements Action {
+}
+19.CreateIfNull注释 - （类型转换注释）：
+
+这个注解设置类型转换CreateIfNull。必须应用在域或方法级CreateIfNull注解。
+
+20.@CreateIfNull( value = true )
+private List<User> users;
+元素注释 - （类型转换注释）：
+
+这个注解设置元素进行类型转换。必须应用在字段域或方法级元素的注解。
+
+21.@Element( value = com.acme.User )
+private List<User> userList;
+关键注释 - （类型转换注释）：
+
+这个注解设置进行类型转换的关键。必须应用在域或方法级的关键注解。
+
+22.@Key( value = java.lang.Long.class )
+private Map<Long, User> userMap;
+KeyProperty注释 - （类型转换注释）：
+
+这个注解设置类型转换KeyProperty。必须应用在域或方法级KeyProperty注解。
+
+23.@KeyProperty( value = "userName" )
+protected List<User> users = null;
+
+24.TypeConversion注释 - （类型转换注释）：
+
+这个注解的注解是用于类和应用程序的转换规则。注解可以应用于TypeConversion在属性和方法的级别。
+
+@TypeConversion(rule = ConversionRule.COLLECTION, 
+converter = "java.util.String")
+public void setUsers( List users ) {
+   this.users = users;
+}

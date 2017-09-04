@@ -1,0 +1,329 @@
+1.if /else 标签:
+这些标签执行可在每一种语言找到的一种基本条件流程。 'If'标签可用于本身或与“Else If''标签和/或单/多'Else'标签，如下图所示：
+<s:if test="%{false}">
+    <div>Will Not Be Executed</div>
+</s:if>
+<s:elseif test="%{true}">
+    <div>Will Be Executed</div>
+</s:elseif>
+<s:else>
+    <div>Will Not Be Executed</div>
+</s:else>
+
+2.iterator标签：
+这些迭代器将遍历一个值。一个可迭代的值可以是任何的java.util.Collection 和 java.util.Iterator。虽然超过一个迭代器遍历排序，可以使用标签对结果进行排序或子集标签的列表或者数组得到一个子集。
+
+下面的示例检索当前对象的值栈getDays()方法的值，并用它来遍历。<s:property/>标签打印出迭代器的当前值。
+<s:iterator value="days">
+  <p>day is: <s:property/></p>
+</s:iterator>
+
+3.merge标签：
+这些合并标记需要两个或两个以上的列表作为参数，并把它们合并在一起，如下所示：
+<s:merge var="myMergedIterator">
+     <s:param value="%{myList1}" />
+     <s:param value="%{myList2}" />
+     <s:param value="%{myList3}" />
+</s:merge>
+<s:iterator value="%{#myMergedIterator}">
+     <s:property />
+</s:iterator>
+4.append 标签：
+
+这些append标签需要两个或两个以上的列表作为参数，并追加它们放在一起，如下图所示：
+
+<s:append var="myAppendIterator">
+     <s:param value="%{myList1}" />
+     <s:param value="%{myList2}" />
+     <s:param value="%{myList3}" />
+</s:append>
+<s:iterator value="%{#myAppendIterator}">
+     <s:property />
+</s:iterator>
+
+5.generator 标签:
+
+generator标签生成一个迭代器的基础上提供val属性。以下generator标签生成一个迭代器，并使用迭代器标签打印出来。
+
+<s:generator val="%{'aaa,bbb,ccc,ddd,eee'}">
+ <s:iterator>
+     <s:property /><br/>
+ </s:iterator>
+</s:generator>
+
+6.action标签：
+
+此标记使开发人员能够直接从JSP页面调用动作指定动作的名称和一个可选的命名空间。标签的主体内容是用行动来呈现结果。任何结果处理器定义在struts.xml这个动作将被忽略，指定除非executeResult参数。
+
+<div>Tag to execute the action</div>
+<br />
+<s:action name="actionTagAction" executeResult="true" />
+<br />
+<div>To invokes special method  in action class</div>
+<br />
+<s:action name="actionTagAction!specialMethod" executeResult="true" />
+action标签实例
+
+7.include 标签:
+
+将用于另一个JSP页面中包含另一个JSP文件。
+
+<-- First Syntax -->
+<s:include value="myJsp.jsp" />
+
+<-- Second Syntax -->
+<s:include value="myJsp.jsp">
+   <s:param name="param1" value="value2" />
+   <s:param name="param2" value="value2" />
+</s:include>
+
+<-- Third Syntax -->
+<s:include value="myJsp.jsp">
+   <s:param name="param1">value1</s:param>
+   <s:param name="param2">value2</s:param>
+</s:include>
+include 标签实例
+
+8.bean 标签:
+
+bean标签实例化一个类，符合JavaBeans规范。此标记的主体可以包含多个元素：参数设置该类别的任何mutator方法。如果var属性设置在BeanTag上，它会放置到堆栈上下文的bean实例。
+<s:bean name="org.apache.struts2.util.Counter" var="counter">
+   <s:param name="first" value="20"/>
+   <s:param name="last" value="25" />
+</s:bean>
+bean标签实例
+
+9.date标签:
+
+date标签，将让在一个快速和容易的方式格式化日期。可以指定自定义格式（如“DD/ MM / YYYY HH：MM”），可以生成易读的符号（如“2小时，14分钟”），或者可以依傍预定义的格式关键 struts.date.format 属性文件。
+
+<s:date name="person.birthday" format="dd/MM/yyyy" />
+<s:date name="person.birthday" format="%{getText('some.i18n.key')}" />
+<s:date name="person.birthday" nice="true" />
+<s:date name="person.birthday" />
+date标签实例
+
+9.param 标签:
+
+这些参数标签可用于参数其他标签。该标签具有以下两个参数。
+
+name (String) - 参数的名称
+
+value (Object) - 参数的值
+
+<pre>
+<ui:component>
+ <ui:param name="key"     value="[0]"/>
+ <ui:param name="value"   value="[1]"/>
+ <ui:param name="context" value="[2]"/>
+</ui:component>
+</pre>
+param标签实例
+
+10.property 标签:
+
+这些属性标签是用来获取属性的值，这将默认堆栈的顶部，如果没有指定。
+
+<s:push value="myBean">
+    <!-- Example 1: -->
+    <s:property value="myBeanProperty" />
+
+    <!-- Example 2: -->TextUtils
+    <s:property value="myBeanProperty" default="a default value" />
+</s:push>
+property标签实例
+
+11.push 标签:
+
+这些push标签是用来推堆栈简化使用。
+
+<s:push value="user">
+    <s:propery value="firstName" />
+    <s:propery value="lastName" />
+</s:push>
+push标签实例
+
+12.set 标签:
+
+这些set标签分配一个值给一个变量在指定的范围内。它是有用的，当想分配一个变量到复杂的表达式，然后简单地引用变量每次而不是复杂的表达。可用的范围是application, session, request, page和行动。 
+
+<s:set name="myenv" value="environment.name"/>
+<s:property value="myenv"/>
+set 标签实例
+
+13.text 标签:
+
+这些 text 标签是用来呈现一个i18n 文本消息。
+
+<!-- First Example -->
+<s:i18n name="struts.action.test.i18n.Shop">
+    <s:text name="main.title"/>
+</s:i18n>
+
+<!-- Second Example -->
+<s:text name="main.title" />
+
+<!-- Third Examlpe -->
+<s:text name="i18n.label.greetings">
+   <s:param >Mr Smith</s:param>
+</s:text>
+text 标签实例
+
+14.url 标签:
+
+这些URL标签是用来创建一个URL。
+
+<-- Example 1 -->
+<s:url value="editGadget.action">
+    <s:param name="id" value="%{selected}" />
+</s:url>
+
+<-- Example 2 -->
+<s:url action="editGadget">
+    <s:param name="id" value="%{selected}" />
+</s:url>
+
+<-- Example 3-->
+<s:url includeParams="get">
+    <s:param name="id" value="%{'22'}" />
+</s:url>
+url标签实例
+
+15.Struts使用Dojo框架的 AJAX标记实现
+
+
+
+
+16.在Struts2中，可以使用以下两种方法来获取HttpServletRequest对象。
+1. ServletActionContext
+
+直接从 org.apache.struts2.ServletActionContext 获取 HttpServletRequest 对象。
+import javax.servlet.http.HttpServletRequest;
+import org.apache.struts2.ServletActionContext;
+
+public class LocaleAction{
+	//business logic
+	public String execute() {
+		HttpServletRequest request = ServletActionContext.getRequest();
+		return "SUCCESS";
+	}
+}
+2. ServletRequestAware
+
+让你的类实现org.apache.struts2.interceptor.ServletRequestAware。
+当 Struts2 的 “servlet-config” 拦截器的一个Action类实现ServletRequestAware接口，它会通过一个 HttpServletRequest 的引用请求，通过Action类的setServletRequest()方法完成
+import javax.servlet.http.HttpServletRequest;
+import org.apache.struts2.interceptor.ServletRequestAware;
+
+public class LocaleAction implements ServletRequestAware{
+
+	HttpServletRequest request;
+	
+	//business logic
+	public String execute() {
+		String param = getServletRequest().getParameter("param");
+		return "SUCCESS";
+
+	}
+
+	public void setServletRequest(HttpServletRequest request) {
+		this.request = request;
+	}
+
+	public HttpServletRequest getServletRequest() {
+		return this.request;
+	}
+}
+Struts2 文档中建议使用 ServletRequestAware 代替 ServletActionContext。
+
+在Struts2中，可以用以下两种方式来获取HttpServletResponse对象。
+1. ServletActionContext
+
+通过 ServletActionContext 类来访问 HttpServletResponse 。
+
+package com.yiibai.common.action;
+
+import javax.servlet.http.HttpServletResponse;
+import org.apache.struts2.ServletActionContext;
+
+public class LocaleAction{
+	//business logic
+	public String execute() {
+		HttpServletResponse response = ServletActionContext.getResponse();
+		
+		return "SUCCESS";
+	}
+}
+2. ServletResponseAware
+
+通过实现 ServletResponseAware 接口并覆盖 setServletResponse()方法来访问HttpServletResponse。
+注意
+当Struts2的“servlet-config”拦截器是看到一个Action类实现ServletResponseAware接口，它会通过一个HttpServletResponse的引用Action类通过setServletResponse()方法请求。
+当然，也可以创建自定义 getServletResponse()来获得 HttpServletResponse。
+package com.yiibai.common.action;
+
+import java.util.Locale;
+import javax.servlet.http.HttpServletResponse;
+import org.apache.struts2.interceptor.ServletResponseAware;
+
+public class LocaleAction implements ServletResponseAware{
+
+	HttpServletResponse response;
+	
+	//business logic
+	public String execute() {
+		Locale locale = getServletResponse().getLocale();
+		return "SUCCESS";
+	}
+
+	public void setServletResponse(HttpServletResponse response) {
+		this.response = response;
+	}
+	public HttpServletResponse getServletResponse() {
+		return this.response;
+	}	
+} 
+这两个机制都可以得到同样 HttpServletResponse 对象，但 Struts2 文档推荐使用 ServletResponseAware。
+
+在Struts2中，可以使用以下两种方法来获取ServletContext对象。
+1. ServletActionContext
+
+直接从 org.apache.struts2.ServletActionContext 获取 ServletContext 对象。
+import javax.servlet.ServletContext;
+import org.apache.struts2.ServletActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+ 
+public class CustomerAction extends ActionSupport{
+	
+	public String execute() throws Exception {
+		
+		ServletContext context = ServletActionContext.getServletContext();
+		
+		return SUCCESS;
+		
+	}
+
+}
+2. ServletContextAware
+
+让你的类实现了org.apache.struts2.util.ServletContextAware接口。
+当Struts2 的 “servlet-config”拦截器是看到了一个Action类实现ServletContextAwareinterface，它会通过一个ServletContext引用Action类通过setServletContext()方法请求。
+import javax.servlet.ServletContext;
+import org.apache.struts2.util.ServletContextAware;
+import com.opensymphony.xwork2.ActionSupport;
+ 
+public class CustomerAction 
+    extends ActionSupport implements ServletContextAware{
+
+	ServletContext context;
+	
+	public String execute() throws Exception {
+		
+		return SUCCESS;
+		
+	}
+
+	public void setServletContext(ServletContext context) {
+		this.context = context;
+	}
+}

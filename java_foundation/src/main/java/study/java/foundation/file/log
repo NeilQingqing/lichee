@@ -1,0 +1,997 @@
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file
+F:\workspace\myRepo\lichee\java_foundation
+file:/F:/workspace/myRepo/lichee/java_foundation/target/test-classes/
+F:\workspace\myRepo\lichee\java_foundation
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes;F:\workspace\myRepo\lichee\java_foundation\target\classes;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\junit\junit\4.12\junit-4.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\cglib\cglib-full\2.0.2\cglib-full-2.0.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\io\netty\netty-all\5.0.0.Alpha2\netty-all-5.0.0.Alpha2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java\3.4.0\protobuf-java-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java-util\3.4.0\protobuf-java-util-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\guava\guava\19.0\guava-19.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\code\gson\gson\2.7\gson-2.7.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\googlecode\protobuf-java-format\protobuf-java-format\1.4\protobuf-java-format-1.4.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-context\5.0.0.RC3\spring-context-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-expression\5.0.0.RC3\spring-expression-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-core\5.0.0.RC3\spring-core-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jcl\5.0.0.RC3\spring-jcl-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-beans\5.0.0.RC3\spring-beans-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-web\5.0.0.RC3\spring-web-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-webmvc\5.0.0.RC3\spring-webmvc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-test\5.0.0.RC3\spring-test-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-aop\5.0.0.RC3\spring-aop-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-orm\5.0.0.RC3\spring-orm-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jdbc\5.0.0.RC3\spring-jdbc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-tx\5.0.0.RC3\spring-tx-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jms\5.0.0.RC3\spring-jms-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-messaging\5.0.0.RC3\spring-messaging-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\security\spring-security-core\5.0.0.M3\spring-security-core-5.0.0.M3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;
+java.runtime.name:            Java(TM) SE Runtime Environment
+sun.boot.library.path:            F:\jdk1.8.0_45\bin
+java.vm.version:            25.45-b02
+java.vm.vendor:            Oracle Corporation
+java.vendor.url:            http://java.oracle.com/
+path.separator:            ;
+java.vm.name:            Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg:            sun.io
+user.country:            CN
+user.script:            
+sun.java.launcher:            SUN_STANDARD
+sun.os.patch.level:            Service Pack 1
+java.vm.specification.name:            Java Virtual Machine Specification
+user.dir:            F:\workspace\myRepo\lichee\java_foundation
+java.runtime.version:            1.8.0_45-b15
+basedir:            F:\workspace\myRepo\lichee\java_foundation
+java.awt.graphicsenv:            sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs:            F:\jdk1.8.0_45\lib\endorsed
+os.arch:            amd64
+surefire.real.class.path:            F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefirebooter785410173594467154.jar
+java.io.tmpdir:            C:\Users\ADMINI~1\AppData\Local\Temp\
+line.separator:            
+
+java.vm.specification.vendor:            Oracle Corporation
+user.variant:            
+os.name:            Windows 7
+sun.jnu.encoding:            GBK
+java.library.path:            F:\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\Oracle\app\product\11.2.0\dbhome_1\bin;F:\Python\Python27\;F:\Python\Python27\Scripts;F:\Python\Python35\Scripts\;F:\Python\Python35\;F:\OracleClient\product\11.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;F:\SVN Server\bin;F:\TortoiseSVN\bin;F:\Nexus\nexus-2.12.1-01\bin;F:\Scala\bin;F:\SBT\bin;F:\Matlab2016B\runtime\win64;F:\Matlab2016B\bin;F:\Matlab2016B\polyspace\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;F:\nodejs\;F:\Mercurial;F:\jdk1.8.0_45\bin;F:\jdk1.8.0_45\jre\bin;F:\apache_software\apache-storm-1.1.0\bin;F:\MySQL\mysql-5.6.24-winx64\bin;F:\Tomcat\apache-tomcat-8.0.24\bin;F:\Derby\db-derby-10.11.1.1-bin\bin;F:\apache_software\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;F:\apache_software\gradle\gradle-4.0.1\bin;F:\nodejs\node_cache;F:\hadoop-2.7.2\hadoop-2.7.2\bin;.
+surefire.test.class.path:            F:\workspace\myRepo\lichee\java_foundation\target\test-classes;F:\workspace\myRepo\lichee\java_foundation\target\classes;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\junit\junit\4.12\junit-4.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\cglib\cglib-full\2.0.2\cglib-full-2.0.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\io\netty\netty-all\5.0.0.Alpha2\netty-all-5.0.0.Alpha2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java\3.4.0\protobuf-java-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java-util\3.4.0\protobuf-java-util-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\guava\guava\19.0\guava-19.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\code\gson\gson\2.7\gson-2.7.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\googlecode\protobuf-java-format\protobuf-java-format\1.4\protobuf-java-format-1.4.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-context\5.0.0.RC3\spring-context-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-expression\5.0.0.RC3\spring-expression-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-core\5.0.0.RC3\spring-core-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jcl\5.0.0.RC3\spring-jcl-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-beans\5.0.0.RC3\spring-beans-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-web\5.0.0.RC3\spring-web-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-webmvc\5.0.0.RC3\spring-webmvc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-test\5.0.0.RC3\spring-test-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-aop\5.0.0.RC3\spring-aop-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-orm\5.0.0.RC3\spring-orm-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jdbc\5.0.0.RC3\spring-jdbc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-tx\5.0.0.RC3\spring-tx-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jms\5.0.0.RC3\spring-jms-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-messaging\5.0.0.RC3\spring-messaging-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\security\spring-security-core\5.0.0.M3\spring-security-core-5.0.0.M3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;
+java.specification.name:            Java Platform API Specification
+java.class.version:            52.0
+sun.management.compiler:            HotSpot 64-Bit Tiered Compilers
+os.version:            6.1
+user.home:            C:\Users\Administrator
+user.timezone:            Asia/Shanghai
+java.awt.printerjob:            sun.awt.windows.WPrinterJob
+file.encoding:            GBK
+java.specification.version:            1.8
+java.class.path:            F:\workspace\myRepo\lichee\java_foundation\target\test-classes;F:\workspace\myRepo\lichee\java_foundation\target\classes;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\junit\junit\4.12\junit-4.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\cglib\cglib-full\2.0.2\cglib-full-2.0.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\io\netty\netty-all\5.0.0.Alpha2\netty-all-5.0.0.Alpha2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java\3.4.0\protobuf-java-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java-util\3.4.0\protobuf-java-util-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\guava\guava\19.0\guava-19.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\code\gson\gson\2.7\gson-2.7.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\googlecode\protobuf-java-format\protobuf-java-format\1.4\protobuf-java-format-1.4.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-context\5.0.0.RC3\spring-context-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-expression\5.0.0.RC3\spring-expression-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-core\5.0.0.RC3\spring-core-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jcl\5.0.0.RC3\spring-jcl-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-beans\5.0.0.RC3\spring-beans-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-web\5.0.0.RC3\spring-web-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-webmvc\5.0.0.RC3\spring-webmvc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-test\5.0.0.RC3\spring-test-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-aop\5.0.0.RC3\spring-aop-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-orm\5.0.0.RC3\spring-orm-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jdbc\5.0.0.RC3\spring-jdbc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-tx\5.0.0.RC3\spring-tx-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jms\5.0.0.RC3\spring-jms-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-messaging\5.0.0.RC3\spring-messaging-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\security\spring-security-core\5.0.0.M3\spring-security-core-5.0.0.M3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;
+user.name:            Administrator
+java.vm.specification.version:            1.8
+sun.java.command:            F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefirebooter785410173594467154.jar F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefire6586646204048479448tmp F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefire_07359266192801286907tmp
+java.home:            F:\jdk1.8.0_45
+sun.arch.data.model:            64
+user.language:            zh
+java.specification.vendor:            Oracle Corporation
+awt.toolkit:            sun.awt.windows.WToolkit
+java.vm.info:            mixed mode
+java.version:            1.8.0_45
+java.ext.dirs:            F:\jdk1.8.0_45\lib\ext;C:\Windows\Sun\Java\lib\ext
+sun.boot.class.path:            F:\jdk1.8.0_45\lib\resources.jar;F:\jdk1.8.0_45\lib\rt.jar;F:\jdk1.8.0_45\lib\sunrsasign.jar;F:\jdk1.8.0_45\lib\jsse.jar;F:\jdk1.8.0_45\lib\jce.jar;F:\jdk1.8.0_45\lib\charsets.jar;F:\jdk1.8.0_45\lib\jfr.jar;F:\jdk1.8.0_45\classes
+java.vendor:            Oracle Corporation
+localRepository:            F:\apache_software\apache-maven-3.3.9-bin\maven_repository
+file.separator:            \
+java.vendor.url.bug:            http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding:            UnicodeLittle
+sun.cpu.endian:            little
+sun.desktop:            windows
+sun.cpu.isalist:            amd64
+Java(TM) SE Runtime Environment
+F:\jdk1.8.0_45\bin
+25.45-b02
+Oracle Corporation
+http://java.oracle.com/
+;
+Java HotSpot(TM) 64-Bit Server VM
+sun.io
+CN
+
+SUN_STANDARD
+Service Pack 1
+Java Virtual Machine Specification
+F:\workspace\myRepo\lichee\java_foundation
+1.8.0_45-b15
+F:\workspace\myRepo\lichee\java_foundation
+sun.awt.Win32GraphicsEnvironment
+F:\jdk1.8.0_45\lib\endorsed
+amd64
+F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefirebooter785410173594467154.jar
+C:\Users\ADMINI~1\AppData\Local\Temp\
+
+
+Oracle Corporation
+
+Windows 7
+GBK
+F:\jdk1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\Oracle\app\product\11.2.0\dbhome_1\bin;F:\Python\Python27\;F:\Python\Python27\Scripts;F:\Python\Python35\Scripts\;F:\Python\Python35\;F:\OracleClient\product\11.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;F:\SVN Server\bin;F:\TortoiseSVN\bin;F:\Nexus\nexus-2.12.1-01\bin;F:\Scala\bin;F:\SBT\bin;F:\Matlab2016B\runtime\win64;F:\Matlab2016B\bin;F:\Matlab2016B\polyspace\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;F:\nodejs\;F:\Mercurial;F:\jdk1.8.0_45\bin;F:\jdk1.8.0_45\jre\bin;F:\apache_software\apache-storm-1.1.0\bin;F:\MySQL\mysql-5.6.24-winx64\bin;F:\Tomcat\apache-tomcat-8.0.24\bin;F:\Derby\db-derby-10.11.1.1-bin\bin;F:\apache_software\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;F:\apache_software\gradle\gradle-4.0.1\bin;F:\nodejs\node_cache;F:\hadoop-2.7.2\hadoop-2.7.2\bin;.
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes;F:\workspace\myRepo\lichee\java_foundation\target\classes;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\junit\junit\4.12\junit-4.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\cglib\cglib-full\2.0.2\cglib-full-2.0.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\io\netty\netty-all\5.0.0.Alpha2\netty-all-5.0.0.Alpha2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java\3.4.0\protobuf-java-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java-util\3.4.0\protobuf-java-util-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\guava\guava\19.0\guava-19.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\code\gson\gson\2.7\gson-2.7.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\googlecode\protobuf-java-format\protobuf-java-format\1.4\protobuf-java-format-1.4.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-context\5.0.0.RC3\spring-context-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-expression\5.0.0.RC3\spring-expression-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-core\5.0.0.RC3\spring-core-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jcl\5.0.0.RC3\spring-jcl-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-beans\5.0.0.RC3\spring-beans-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-web\5.0.0.RC3\spring-web-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-webmvc\5.0.0.RC3\spring-webmvc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-test\5.0.0.RC3\spring-test-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-aop\5.0.0.RC3\spring-aop-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-orm\5.0.0.RC3\spring-orm-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jdbc\5.0.0.RC3\spring-jdbc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-tx\5.0.0.RC3\spring-tx-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jms\5.0.0.RC3\spring-jms-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-messaging\5.0.0.RC3\spring-messaging-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\security\spring-security-core\5.0.0.M3\spring-security-core-5.0.0.M3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;
+Java Platform API Specification
+52.0
+HotSpot 64-Bit Tiered Compilers
+6.1
+C:\Users\Administrator
+Asia/Shanghai
+sun.awt.windows.WPrinterJob
+GBK
+1.8
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes;F:\workspace\myRepo\lichee\java_foundation\target\classes;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\junit\junit\4.12\junit-4.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\cglib\cglib-full\2.0.2\cglib-full-2.0.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\io\netty\netty-all\5.0.0.Alpha2\netty-all-5.0.0.Alpha2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java\3.4.0\protobuf-java-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\protobuf\protobuf-java-util\3.4.0\protobuf-java-util-3.4.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\guava\guava\19.0\guava-19.0.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\google\code\gson\gson\2.7\gson-2.7.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\com\googlecode\protobuf-java-format\protobuf-java-format\1.4\protobuf-java-format-1.4.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-context\5.0.0.RC3\spring-context-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-expression\5.0.0.RC3\spring-expression-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-core\5.0.0.RC3\spring-core-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jcl\5.0.0.RC3\spring-jcl-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-beans\5.0.0.RC3\spring-beans-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-web\5.0.0.RC3\spring-web-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-webmvc\5.0.0.RC3\spring-webmvc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-test\5.0.0.RC3\spring-test-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-aop\5.0.0.RC3\spring-aop-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-orm\5.0.0.RC3\spring-orm-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jdbc\5.0.0.RC3\spring-jdbc-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-tx\5.0.0.RC3\spring-tx-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-jms\5.0.0.RC3\spring-jms-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\spring-messaging\5.0.0.RC3\spring-messaging-5.0.0.RC3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\org\springframework\security\spring-security-core\5.0.0.M3\spring-security-core-5.0.0.M3.jar;F:\apache_software\apache-maven-3.3.9-bin\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;
+Administrator
+1.8
+F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefirebooter785410173594467154.jar F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefire6586646204048479448tmp F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefire_07359266192801286907tmp
+F:\jdk1.8.0_45
+64
+zh
+Oracle Corporation
+sun.awt.windows.WToolkit
+mixed mode
+1.8.0_45
+F:\jdk1.8.0_45\lib\ext;C:\Windows\Sun\Java\lib\ext
+F:\jdk1.8.0_45\lib\resources.jar;F:\jdk1.8.0_45\lib\rt.jar;F:\jdk1.8.0_45\lib\sunrsasign.jar;F:\jdk1.8.0_45\lib\jsse.jar;F:\jdk1.8.0_45\lib\jce.jar;F:\jdk1.8.0_45\lib\charsets.jar;F:\jdk1.8.0_45\lib\jfr.jar;F:\jdk1.8.0_45\classes
+Oracle Corporation
+F:\apache_software\apache-maven-3.3.9-bin\maven_repository
+\
+http://bugreport.sun.com/bugreport/
+UnicodeLittle
+little
+windows
+amd64
+java.runtime.name
+sun.boot.library.path
+java.vm.version
+java.vm.vendor
+java.vendor.url
+path.separator
+java.vm.name
+file.encoding.pkg
+user.script
+user.country
+sun.java.launcher
+sun.os.patch.level
+java.vm.specification.name
+user.dir
+java.runtime.version
+java.awt.graphicsenv
+basedir
+java.endorsed.dirs
+os.arch
+surefire.real.class.path
+java.io.tmpdir
+line.separator
+java.vm.specification.vendor
+user.variant
+os.name
+sun.jnu.encoding
+java.library.path
+surefire.test.class.path
+java.specification.name
+java.class.version
+sun.management.compiler
+os.version
+user.home
+user.timezone
+java.awt.printerjob
+java.specification.version
+file.encoding
+user.name
+java.class.path
+java.vm.specification.version
+sun.arch.data.model
+java.home
+sun.java.command
+java.specification.vendor
+user.language
+awt.toolkit
+java.vm.info
+java.version
+java.ext.dirs
+sun.boot.class.path
+java.vendor
+localRepository
+file.separator
+java.vendor.url.bug
+sun.cpu.endian
+sun.io.unicode.encoding
+sun.desktop
+sun.cpu.isalist
+F:\workspace\myRepo\lichee\java_foundation
+PATH = F:\workspace\myRepo\lichee\java_foundation\Test1.txt
+C:\
+D:\
+RequiresJS_2.0_API中文.pdf
+E:\
+F:\
+G:\
+H:\
+J:\
+F:\workspace\myRepo\lichee\java_foundation
+F:\workspace\myRepo\lichee\java_foundation\.classpath
+F:\workspace\myRepo\lichee\java_foundation\.project
+F:\workspace\myRepo\lichee\java_foundation\.settings
+F:\workspace\myRepo\lichee\java_foundation\.settings\org.eclipse.core.resources.prefs
+F:\workspace\myRepo\lichee\java_foundation\.settings\org.eclipse.jdt.core.prefs
+F:\workspace\myRepo\lichee\java_foundation\.settings\org.eclipse.m2e.core.prefs
+F:\workspace\myRepo\lichee\java_foundation\learnDoc
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\books.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\eclipse快捷键.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\hadoop安装和hive讲解.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\hadoop权威指南学习笔记.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Hadoop环境安装.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\hbase和spark安装过程.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\hive&hbase&spark安装.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\HTML 教程.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Idea快捷键.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Java NIO 系列教程.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\JavaScript 教程.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Java核心技术学习整理.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\java生成SSL证书.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\jQuery.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\JSON.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\learning a language.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Machine learning.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Maven 教程.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\MongoDB 教程.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\MQTT-3.1.1-CN.html
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\MQTT-3.1.1-CN.pdf
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\MQTT_3.1protocol_Specific中文版.pdf
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Mybatis笔记.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Netty.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\NodeJS.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\openJdk源码下载.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Oracle学习.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\protobuf学习.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Python教程.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\redis.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\shell.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\solr安装.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Spark学习.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\Storm.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\struts2标签.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\struts2注释.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\WorkRequir.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\~$otobuf学习.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\学习路线.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\小项目.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\数据结构和算法.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\文摘.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\物联网与AlphaGo.docx
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\知识点.txt
+F:\workspace\myRepo\lichee\java_foundation\learnDoc\设计模式.docx
+F:\workspace\myRepo\lichee\java_foundation\pom.xml
+F:\workspace\myRepo\lichee\java_foundation\src
+F:\workspace\myRepo\lichee\java_foundation\src\main
+F:\workspace\myRepo\lichee\java_foundation\src\main\java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\BitSetDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\EnumerationDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\ListDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\MapDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\PropertiesDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\SetDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\StackDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\test
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\test.properties
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\test.xml
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\VectorDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\datastruction\集合
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\errlog
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\FileEncryptAndDecrypt.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\FileStudy.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\FileUtil.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\File类总结
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\log
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\SystemUtils.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\file\ZipUtil.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\io
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\io\IOByteStudy.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\io\IOCharStudy.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\io\IO流
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\io\ReadFile.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\io\WriteFile.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\DiscardServer.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\DiscardServerHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\NettyClient.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\NettyClientHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\NettyEncoder.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\NettyServer.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\NettyServerHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\TimeClient.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\TimeClientHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\netty\TimeServerHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio\AioClientDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio\AioServerDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio\ByteBufferDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio\SelectorServerSocketChannelDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio\SelectorSocketChannelDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio\ServerSocketChannelDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\nio\SocketChannelDemo.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\Client.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\ClientHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\GenerateCodeByProto.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\RequestMsg.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\RequestMsgProtoBuf.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\Server.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\ServerHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\User.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\UserProtoBuf.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proto\UserService.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGlibConcreteClassDispatcher.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGlibConcreteClassLazyLoader.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGLibInterfaceMakerTest.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGlibLazyBean.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGlibPropertyBean.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGLibTargetInterceptor.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGLibTargetMethodCallbackFilter.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGLibTargetObject.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGLibTargetResultFixed.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CglibTest.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CglibTest2.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\CGlibTransactionHandler.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\User.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\UserDAO.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\UserDAOImpl.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\UserDAOProxy.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\proxy\动态代理
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\NIOSocketClient.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\NIOSocketServer.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\socket
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\SocketClient.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\SocketServer.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\ThreadSocketClient1.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\ThreadSocketClient2.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\ThreadSocketServer.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\UDPClient.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\java\study\java\foundation\socket\UDPServer.java
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\bin
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\bin\protoc.exe
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\any.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\api.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\compiler
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\compiler\plugin.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\descriptor.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\duration.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\empty.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\field_mask.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\source_context.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\struct.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\timestamp.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\type.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\include\google\protobuf\wrappers.proto
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\protobuf-java-3.4.0.zip
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\protoc-3.4.0-win32.zip
+F:\workspace\myRepo\lichee\java_foundation\src\main\resource\readme.txt
+F:\workspace\myRepo\lichee\java_foundation\src\test
+F:\workspace\myRepo\lichee\java_foundation\src\test\java
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\study
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\study\java
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\study\java\foundation
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\study\java\foundation\java_foundation
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\study\java\foundation\java_foundation\AppTest.java
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study\java
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study\java\foundation
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study\java\foundation\file
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study\java\foundation\file\FileTest.java
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study\java\foundation\io
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study\java\foundation\io\TestIO.java
+F:\workspace\myRepo\lichee\java_foundation\src\test\java\test\study\java\foundation\socket
+F:\workspace\myRepo\lichee\java_foundation\target
+F:\workspace\myRepo\lichee\java_foundation\target\classes
+F:\workspace\myRepo\lichee\java_foundation\target\classes\META-INF
+F:\workspace\myRepo\lichee\java_foundation\target\classes\META-INF\MANIFEST.MF
+F:\workspace\myRepo\lichee\java_foundation\target\classes\META-INF\maven
+F:\workspace\myRepo\lichee\java_foundation\target\classes\META-INF\maven\study.java.foundation
+F:\workspace\myRepo\lichee\java_foundation\target\classes\META-INF\maven\study.java.foundation\java_foundation
+F:\workspace\myRepo\lichee\java_foundation\target\classes\META-INF\maven\study.java.foundation\java_foundation\pom.properties
+F:\workspace\myRepo\lichee\java_foundation\target\classes\META-INF\maven\study.java.foundation\java_foundation\pom.xml
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\BitSetDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\EnumerationDemo$Day.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\EnumerationDemo$Reason.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\EnumerationDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\ListDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\MapDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\PropertiesDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\SetDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\StackDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\datastruction\VectorDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file\FileEncryptAndDecrypt.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file\FileStudy$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file\FileStudy.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file\FileUtil.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file\SystemUtils.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\file\ZipUtil.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\IOByteStudy.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\IOCharStudy.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\Member.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\ReadFile.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\Receiver.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\Sender.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\Student.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\io\WriteFile.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\DiscardServer$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\DiscardServer.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\DiscardServerHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\NettyClient$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\NettyClient.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\NettyClientHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\NettyEncoder.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\NettyServer$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\NettyServer.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\NettyServerHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\TimeClient$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\TimeClient.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\TimeClientHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\TimeServerHandler$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\netty\TimeServerHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\AioClientDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\AioServerDemo$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\AioServerDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\ByteBufferDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\SelectorServerSocketChannelDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\SelectorSocketChannelDemo$ClientThread.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\SelectorSocketChannelDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\ServerSocketChannelDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\nio\SocketChannelDemo.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\Client$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\Client.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\ClientHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\GenerateCodeByProto.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\RequestMsgProtoBuf$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\RequestMsgProtoBuf$RequestMsg$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\RequestMsgProtoBuf$RequestMsg$Builder.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\RequestMsgProtoBuf$RequestMsg.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\RequestMsgProtoBuf$RequestMsgOrBuilder.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\RequestMsgProtoBuf.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\Server$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\Server.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\ServerHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\UserProtoBuf$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\UserProtoBuf$User$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\UserProtoBuf$User$Builder.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\UserProtoBuf$User.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\UserProtoBuf$UserOrBuilder.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\UserProtoBuf.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proto\UserService.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGlibConcreteClassDispatcher.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGlibConcreteClassLazyLoader.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGLibInterfaceMakerTest$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGLibInterfaceMakerTest.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGlibLazyBean.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGlibPropertyBean.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGLibTargetInterceptor.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGLibTargetMethodCallbackFilter.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGLibTargetObject.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGLibTargetResultFixed.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CglibTest.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CglibTest2.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\CGlibTransactionHandler.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\User.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\UserDAO.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\UserDAOImpl.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\proxy\UserDAOProxy.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\NIOSocketClient$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\NIOSocketClient$ClientThread.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\NIOSocketClient.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\NIOSocketServer.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\SocketClient.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\SocketServer$1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\SocketServer.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\ThreadSocketClient1.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\ThreadSocketClient2.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\ThreadSocketServer$Task.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\ThreadSocketServer.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\UDPClient.class
+F:\workspace\myRepo\lichee\java_foundation\target\classes\study\java\foundation\socket\UDPServer.class
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\compile
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\compile\default-compile
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\testCompile
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst
+F:\workspace\myRepo\lichee\java_foundation\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+F:\workspace\myRepo\lichee\java_foundation\target\surefire
+F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefire6586646204048479448tmp
+F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefirebooter785410173594467154.jar
+F:\workspace\myRepo\lichee\java_foundation\target\surefire\surefire_07359266192801286907tmp
+F:\workspace\myRepo\lichee\java_foundation\target\surefire-reports
+F:\workspace\myRepo\lichee\java_foundation\target\surefire-reports\study.java.foundation.java_foundation.AppTest.txt
+F:\workspace\myRepo\lichee\java_foundation\target\surefire-reports\TEST-study.java.foundation.java_foundation.AppTest.xml
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\study
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\study\java
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\study\java\foundation
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\study\java\foundation\java_foundation
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\study\java\foundation\java_foundation\AppTest.class
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test\study
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test\study\java
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test\study\java\foundation
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test\study\java\foundation\file
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test\study\java\foundation\file\FileTest.class
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test\study\java\foundation\io
+F:\workspace\myRepo\lichee\java_foundation\target\test-classes\test\study\java\foundation\io\TestIO.class
+F:\workspace\myRepo\lichee\java_foundation\temp
+F:\workspace\myRepo\lichee\java_foundation\test
+F:\workspace\myRepo\lichee\java_foundation\Test1.txt
+**************************
+**************************
+hello(回退,) rollenholt单词有： IO娴?
+数字有：1.0
+单词有： java.io鍖呬腑鍫靛鍨婭O锛?
+数字有：2.0
+单词有： java.nio鍖呬腑鐨勯潪鍫靛鍨婭O锛岄?氬父绉颁负New
+单词有： IO
+数字有：1.0
+单词有： 娴佸紡閮ㄥ垎鈥曗?旾O鐨勪富浣撻儴鍒嗭紱
+数字有：2.0
+单词有： 闈炴祦寮忛儴鍒嗏?曗?曚富瑕佸寘鍚竴浜涜緟鍔╂祦寮忛儴鍒嗙殑绫伙紝濡傦細File绫汇?丷andomAccessFile绫诲拰FileDescriptor绛夌被锛?
+数字有：3.0
+单词有： 鏂囦欢璇诲彇閮ㄥ垎鐨勪笌瀹夊叏鐩稿叧鐨勭被锛屽锛歋erializablePermission绫汇?備互鍙婁笌鏈湴鎿嶄綔绯荤粺鐩稿叧鐨勬枃浠剁郴缁熺殑绫伙紝濡傦細FileSystem绫诲拰Win32FileSystem绫诲拰WinNTFileSystem绫汇??
+单词有： 娴佸紡閮ㄥ垎鍙互姒傛嫭涓猴細涓や釜瀵瑰簲涓?涓ˉ姊併??
+单词有： 涓や釜瀵瑰簲鎸囷細
+数字有：1.0
+单词有： 瀛楄妭娴侊紙Byte
+单词有： Stream锛夊拰瀛楃娴侊紙Char
+单词有： Stream锛夌殑瀵瑰簲锛?
+数字有：2.0
+单词有： 杈撳叆鍜岃緭鍑虹殑瀵瑰簲銆?
+单词有： 涓?涓ˉ姊佹寚锛氫粠瀛楄妭娴佸埌瀛楃娴佺殑妗ユ銆傚搴斾簬杈撳叆鍜岃緭鍑轰负InputStreamReader鍜孫utputStreamWriter銆?
+单词有： 鍦ㄦ祦鐨勫叿浣撶被涓張鍙互鍏蜂綋鍒嗕负锛?
+数字有：1.0
+单词有： 浠嬭川娴侊紙Media
+单词有： Stream鎴栬?呯О涓哄師濮嬫祦Raw
+单词有： Stream锛夆?曗?曚富瑕佹寚涓?浜涘熀鏈殑娴侊紝
+单词有： 浠栦滑涓昏鏄粠鍏蜂綋鐨勪粙璐ㄤ笂锛屽锛氭枃浠躲?佸唴瀛樼紦鍐插尯锛圔yte鏁扮粍銆丆har鏁扮粍銆丼tringBuffer瀵硅薄锛夌瓑锛岃鍙栨暟鎹紱
+数字有：2.0
+单词有： 杩囨护娴侊紙Filter
+单词有： Stream锛夆?曗?曚富瑕佹寚鎵?鏈塅ilterInputStream
+标点有： /
+单词有： FilterOutputStream
+单词有： 鍜孎ilterReader
+标点有： /
+单词有： FilterWriter鐨勫瓙绫伙紝涓昏鏄鍏跺寘瑁呯殑绫昏繘琛屾煇浜涚壒瀹氱殑澶勭悊锛屽锛氱紦瀛樼瓑銆?
+数字有：1.0
+单词有： 瀛楃娴?
+单词有： 瀛楃鍐欏嚭娴?
+数字有：1.0
+单词有： Writer鏄墍鏈夌殑杈撳嚭瀛楃娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+数字有：2.0
+单词有： CharArrayWriter銆丼tringWriter鏄袱绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆鍚慍har鏁扮粍銆丼tring涓啓鍏ユ暟鎹?侾ipedWriter鏄悜涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓啓鍏ユ暟鎹紝
+数字有：3.0
+单词有： BufferedWriter鏄竴涓楗板櫒涓篧riter鎻愪緵缂撳啿鍔熻兘銆?
+数字有：4.0
+单词有： PrintWriter鍜孭rintStream鏋佸叾绫讳技锛屽姛鑳藉拰浣跨敤涔熼潪甯哥浉浼笺??
+数字有：5.0
+单词有： OutputStreamWriter鏄疧utputStream鍒癢riter杞崲鐨勬ˉ姊侊紝瀹冪殑瀛愮被FileWriter鍏跺疄灏辨槸涓?涓疄鐜版鍔熻兘鐨勫叿浣撶被锛堝叿浣撳彲浠ョ爺绌朵竴涓婼ource
+单词有： Code锛夈??
+单词有： java.io.Writer
+单词有： All
+单词有： Implemented
+单词有： Interfaces
+标点有： :
+单词有： Closeable
+标点有： ,
+单词有： Flushable
+标点有： ,
+单词有： Appendable
+标点有： ,
+单词有： AutoCloseable
+单词有： Direct
+单词有： Known
+单词有： Subclasses
+标点有： :
+单词有： BufferedWriter
+单词有： CharArrayWriter
+单词有： FilterWriter
+单词有： OutputStreamWriter
+标点有： -
+标点有： -
+标点有： -
+标点有： >
+单词有： FileWriter
+单词有： PipedWriter
+单词有： PrintWriter
+单词有： StringWriter
+单词有： 瀛楃璇诲叆娴?
+数字有：1.0
+单词有： Reader鏄墍鏈夌殑杈撳叆瀛楃娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+数字有：2.0
+单词有： CharReader銆丼tringReader鏄袱绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆灏咰har鏁扮粍銆丼tring涓鍙栨暟鎹?侾ipedReader鏄粠涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓鍙栨暟鎹??
+数字有：3.0
+单词有： BufferedReader寰堟槑鏄惧氨鏄竴涓楗板櫒锛屽畠鍜屽叾瀛愮被璐熻矗瑁呴グ鍏跺畠Reader瀵硅薄銆?
+数字有：4.0
+单词有： FilterReader鏄墍鏈夎嚜瀹氫箟鍏蜂綋瑁呴グ娴佺殑鐖剁被锛屽叾瀛愮被PushbackReader瀵筊eader瀵硅薄杩涜瑁呴グ锛屼細澧炲姞涓?涓鍙枫??
+数字有：5.0
+单词有： InputStreamReader鏄竴涓繛鎺ュ瓧鑺傛祦鍜屽瓧绗︽祦鐨勬ˉ姊侊紝瀹冨皢瀛楄妭娴佽浆鍙樹负瀛楃娴併?侳ileReader鍙互璇存槸涓?涓揪鍒版鍔熻兘銆佸父鐢ㄧ殑宸ュ叿绫伙紝鍦ㄥ叾婧愪唬鐮佷腑鏄庢樉浣跨敤浜嗗皢FileInputStream杞彉涓篟eader鐨勬柟娉曘?傛垜浠彲浠ヤ粠杩欎釜绫讳腑寰楀埌涓?瀹氱殑鎶?宸с??
+单词有： java.io.Reader
+单词有： All
+单词有： Implemented
+单词有： Interfaces
+标点有： :
+单词有： Closeable
+标点有： ,
+单词有： AutoCloseable
+标点有： ,
+单词有： Readable
+单词有： Direct
+单词有： Known
+单词有： Subclasses
+标点有： :
+单词有： BufferedReader
+标点有： -
+标点有： -
+标点有： -
+标点有： >
+单词有： LineNumberReader
+单词有： CharArrayReader
+单词有： FilterReader
+标点有： -
+标点有： -
+标点有： -
+标点有： >
+单词有： PushbackReader
+单词有： InputStreamReader
+标点有： -
+标点有： -
+标点有： -
+标点有： >
+单词有： FileReader
+单词有： PipedReader
+单词有： StringReader
+数字有：2.0
+单词有： 瀛楄妭娴?
+单词有： 瀛楄妭杈撳叆娴?
+数字有：1.0
+单词有： InputStream鏄墍鏈夌殑杈撳叆瀛楄妭娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+数字有：2.0
+单词有： ByteArrayInputStream銆丼tringBufferInputStream銆丗ileInputStream鏄笁绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆灏咮yte鏁扮粍銆丼tringBuffer銆佸拰鏈湴鏂囦欢涓鍙栨暟鎹?侾ipedInputStream鏄粠涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓鍙栨暟鎹??
+数字有：3.0
+单词有： ObjectInputStream鍜屾墍鏈塅ilterInputStream鐨勫瓙绫婚兘鏄楗版祦锛堣楗板櫒妯″紡鐨勪富瑙掞級銆?
+单词有： java.io.InputStream
+单词有： 鏄墍鏈夌殑杈撳叆瀛楄妭娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被
+单词有： All
+单词有： Implemented
+单词有： Interfaces
+标点有： :
+单词有： Closeable
+标点有： ,
+单词有： AutoCloseable
+单词有： Direct
+单词有： Known
+单词有： Subclasses
+标点有： :
+单词有： AudioInputStream
+单词有： InputStream
+标点有： -
+标点有： -
+标点有： -
+标点有： >
+单词有： org.omg.CORBA.portable.InputStream
+单词有： ObjectInputStream
+单词有： ByteArrayInputStream
+单词有： 灏嗗唴瀛樹腑鐨凚yte鏁扮粍閫傞厤涓轰竴涓狪nputStream銆備粠鍐呭瓨涓殑Byte鏁扮粍鍒涘缓璇ュ璞★紙2绉嶆柟娉曪級
+单词有： 涓?鑸綔涓烘暟鎹簮锛屼細浣跨敤鍏跺畠瑁呴グ娴佹彁渚涢澶栫殑鍔熻兘锛屼竴鑸兘寤鸿鍔犱釜缂撳啿鍔熻兘銆?
+单词有： StringBufferInputStream
+单词有： 灏嗗唴瀛樹腑鐨勫瓧绗︿覆閫傞厤涓轰竴涓狪nputStream銆?
+单词有： 浠庝竴涓猄tring瀵硅薄鍒涘缓璇ュ璞°?傚簳灞傜殑瀹炵幇浣跨敤StringBuffer銆傝绫昏Deprecated銆備富瑕佸師鍥犳槸StringBuffer涓嶅簲璇ュ睘浜庡瓧鑺傛祦锛屾墍浠ユ帹鑽愪娇鐢⊿tringReader銆?
+单词有： 涓?鑸綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?
+单词有： FileInputStream
+单词有： 鏈?鍩烘湰鐨勬枃浠惰緭鍏ユ祦銆備富瑕佺敤浜庝粠鏂囦欢涓鍙栦俊鎭??
+单词有： 閫氳繃涓?涓唬琛ㄦ枃浠惰矾寰勭殑
+单词有： String銆丗ile瀵硅薄鎴栬??
+单词有： FileDescriptor瀵硅薄鍒涘缓銆?
+单词有： 涓?鑸綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?
+单词有： PipedInputStream
+单词有： 璇诲彇浠庡搴擯ipedOutputStream鍐欏叆鐨勬暟鎹?傚湪娴佷腑瀹炵幇浜嗙閬撶殑姒傚康銆?
+单词有： 鍒╃敤瀵瑰簲鐨凱ipedOutputStream鍒涘缓銆?
+单词有： 鍦ㄥ绾跨▼绋嬪簭涓綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?
+单词有： SequenceInputStream
+单词有： 灏?2涓垨鑰呭涓狪nputStream
+单词有： 瀵硅薄杞彉涓轰竴涓狪nputStream.
+单词有： 浣跨敤涓や釜InputStream
+单词有： 鎴栬?呭唴閮ㄥ璞′负InputStream
+单词有： 鐨凟numeration瀵硅薄鍒涘缓璇ュ璞°??
+单词有： 涓?鑸綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?
+单词有： FilterInputStream
+单词有： 缁欏叾瀹冭瑁呴グ瀵硅薄鎻愪緵棰濆鍔熻兘鐨勬娊璞＄被
+单词有： Direct
+单词有： Known
+单词有： Subclasses
+标点有： :
+单词有： CheckedInputStream
+单词有： CipherInputStream
+单词有： DeflaterInputStream
+单词有： ProgressMonitorInputStream
+单词有： DigestInputStream
+单词有： InflaterInputStream
+单词有： BufferedInputStream
+单词有： 浣跨敤璇ュ璞￠樆姝㈡瘡娆¤鍙栦竴涓瓧鑺傞兘浼氶绻佹搷浣淚O銆傚皢瀛楄妭璇诲彇涓?涓紦瀛樺尯锛屼粠缂撳瓨鍖鸿鍙栥??
+单词有： 鍒╃敤涓?涓狪nputStream銆佹垨鑰呭甫涓婁竴涓嚜瀹氫箟鐨勭紦瀛樺尯鐨勫ぇ灏忔瀯閫犮??
+单词有： 浣跨敤InputStream鐨勬柟娉曡鍙栵紝鍙槸鑳屽悗澶氫竴涓紦瀛樼殑鍔熻兘銆傝璁℃ā寮忎腑閫忔槑瑁呴グ鍣ㄧ殑搴旂敤銆?
+单词有： DataInputStream
+单词有： 涓?鑸拰DataOutputStream閰嶅浣跨敤
+标点有： ,
+单词有： 瀹屾垚鍩烘湰鏁版嵁绫诲瀷鐨勮鍐欍??
+单词有： 鍒╃敤涓?涓狪nputStream鏋勯?犮??
+单词有： 鎻愪緵浜嗗ぇ閲忕殑璇诲彇鍩烘湰鏁版嵁绫绘柊鐨勮鍙栨柟娉曘??
+单词有： LineNumberInputStream
+单词有： 璺熻釜杈撳叆娴佷腑鐨勮鍙枫?傚彲浠ヨ皟鐢╣etLineNumber
+标点有： (
+标点有： )
+单词有： 鍜?
+单词有： setLineNumber
+标点有： (
+单词有： int
+标点有： )
+单词有： 鏂规硶寰楀埌鍜岃缃鍙枫??
+单词有： 鍒╃敤涓?涓狪nputStream鏋勯?犮??
+单词有： 绱х揣澧炲姞涓?涓鍙枫?傚彲浠ヨ薄浣跨敤鍏跺畠InputStream涓?鏍蜂娇鐢ㄣ??
+单词有： PushbackInputStream
+单词有： 鍙互鍦ㄨ鍙栨渶鍚庝竴涓猙yte
+单词有： 鍚庡皢鍏舵斁鍥炲埌缂撳瓨涓??
+单词有： 鍒╃敤涓?涓狪nputStream鏋勯?犮??
+单词有： 涓?鑸粎浠呬細鍦ㄨ璁ompiler鐨剆canner
+单词有： 鏃朵細鐢ㄥ埌杩欎釜绫汇?傚湪鎴戜滑鐨刯ava璇█鐨勭紪璇戝櫒涓娇鐢ㄥ畠銆傚緢澶氱▼搴忓憳鍙兘涓?杈堝瓙閮戒笉闇?瑕併??
+单词有： 瀛楄妭杈撳嚭娴?
+数字有：1.0
+单词有： OutputStream鏄墍鏈夌殑杈撳嚭瀛楄妭娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+数字有：2.0
+单词有： ByteArrayOutputStream銆丗ileOutputStream鏄袱绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆鍚態yte鏁扮粍銆佸拰鏈湴鏂囦欢涓啓鍏ユ暟鎹?侾ipedOutputStream鏄悜涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓啓鍏ユ暟鎹??
+数字有：3.0
+单词有： ObjectOutputStream鍜屾墍鏈塅ilterOutputStream鐨勫瓙绫婚兘鏄楗版祦銆?
+单词有： java.io.OutputStream
+单词有： All
+单词有： Implemented
+单词有： Interfaces
+标点有： :
+单词有： Closeable
+标点有： ,
+单词有： Flushable
+标点有： ,
+单词有： AutoCloseable
+单词有： Direct
+单词有： Known
+单词有： Subclasses
+标点有： :
+单词有： ObjectOutputStream
+单词有： OutputStream
+标点有： -
+标点有： -
+标点有： -
+标点有： >
+单词有： org.omg.CORBA.portable.OutputStream
+单词有： ByteArrayOutputStream
+单词有： 鍦ㄥ唴瀛樹腑鍒涘缓涓?涓猙uffer銆傛墍鏈夊啓鍏ユ娴佷腑鐨勬暟鎹兘琚斁鍏ュ埌姝uffer涓??
+单词有： 鏃犲弬鎴栬?呬娇鐢ㄤ竴涓彲閫夌殑鍒濆鍖朾uffer鐨勫ぇ灏忕殑鍙傛暟鏋勯?犮??
+单词有： 涓?鑸皢鍏跺拰FilterOutputStream濂楁帴寰楀埌棰濆鐨勫姛鑳姐?傚缓璁鍏堝拰BufferedOutputStream濂楁帴瀹炵幇缂撳啿鍔熻兘銆傞?氳繃toByteArray鏂规硶鍙互寰楀埌娴佷腑鐨勬暟鎹?傦紙涓嶉?氭槑瑁呴グ鍣ㄧ殑鐢ㄦ硶锛?
+单词有： FileOutputStream
+单词有： 灏嗕俊鎭啓鍏ユ枃浠朵腑銆?
+单词有： 浣跨敤浠ｈ〃鏂囦欢璺緞鐨凷tring銆丗ile瀵硅薄鎴栬??
+单词有： FileDescriptor瀵硅薄鍒涘缓銆傝繕鍙互鍔犱竴涓唬琛ㄥ啓鍏ョ殑鏂瑰紡鏄惁涓篴ppend鐨勬爣璁般??
+单词有： 涓?鑸皢鍏跺拰FilterOutputStream濂楁帴寰楀埌棰濆鐨勫姛鑳姐??
+单词有： PipedOutputStream
+单词有： 浠讳綍鍐欏叆姝ゅ璞＄殑淇℃伅閮借鏀惧叆瀵瑰簲PipedInputStream
+单词有： 瀵硅薄鐨勭紦瀛樹腑锛屼粠鑰屽畬鎴愮嚎绋嬬殑閫氫俊锛屽疄鐜颁簡鈥滅閬撯?濈殑姒傚康銆傚叿浣撳湪鍚庨潰璇︾粏璁茶В銆?
+单词有： 鍒╃敤PipedInputStream鏋勯??
+单词有： 鍦ㄥ绾跨▼绋嬪簭涓暟鎹殑鐩殑鍦扮殑銆備竴鑸皢鍏跺拰FilterOutputStream濂楁帴寰楀埌棰濆鐨勫姛
+单词有： FilterOutputStream
+单词有： 瀹炵幇瑁呴グ鍣ㄥ姛鑳界殑鎶借薄绫汇?備负鍏跺畠OutputStream瀵硅薄澧炲姞棰濆鐨勫姛鑳姐??
+单词有： Direct
+单词有： Known
+单词有： Subclasses
+标点有： :
+单词有： CheckedOutputStream
+单词有： CipherOutputStream
+单词有： DeflaterOutputStream
+单词有： DigestOutputStream
+单词有： InflaterOutputStream
+单词有： BufferedOutputStream
+单词有： 浣跨敤瀹冨彲浠ラ伩鍏嶉绻佸湴鍚慖O鍐欏叆鏁版嵁锛屾暟鎹竴鑸兘鍐欏叆涓?涓紦瀛樺尯锛屽湪璋冪敤flush鏂规硶鍚庝細娓呯┖缂撳瓨銆佷竴娆″畬鎴愭暟鎹殑鍐欏叆銆?
+单词有： 浠庝竴涓狾utputStream鎴栬?呭拰涓?涓唬琛ㄧ紦瀛樺尯澶у皬鐨勫彲閫夊弬鏁版瀯閫犮??
+单词有： 鎻愪緵鍜屽叾瀹僌utputStream涓?鑷寸殑鎺ュ彛锛屽彧鏄唴閮ㄦ彁渚涗竴涓紦瀛樼殑鍔熻兘銆?
+单词有： DataOutputStream
+单词有： 閫氬父鍜孌ataInputStream閰嶅悎浣跨敤锛屼娇鐢ㄥ畠鍙互鍐欏叆鍩烘湰鏁版嵁绫绘柊銆?
+单词有： 浣跨敤OutputStream鏋勯??
+单词有： 鍖呭惈澶ч噺鐨勫啓鍏ュ熀鏈暟鎹被鍨嬬殑鏂规硶銆?
+单词有： PrintStream
+单词有： 浜х敓鍏锋湁鏍煎紡鐨勮緭鍑轰俊鎭?傦紙涓?鑸湴鍦╦ava绋嬪簭涓璂ataOutputStream鐢ㄤ簬鏁版嵁鐨勫瓨鍌紝鍗矹2EE涓寔涔呭眰瀹屾垚鐨勫姛鑳斤紝PrintStream瀹屾垚鏄剧ず鐨勫姛鑳斤紝绫讳技浜嶫2EE涓〃鐜板眰鐨勫姛鑳斤級
+单词有： 浣跨敤OutputStream鍜屼竴涓彲閫夌殑琛ㄧず缂撳瓨鏄惁鍦ㄦ瘡娆℃崲琛屾椂鏄惁flush鐨勬爣璁版瀯閫犮?傝繕鎻愪緵寰堝鍜屾枃浠剁浉鍏崇殑鏋勯?犳柟娉曘??
+单词有： 涓?鑸槸涓?涓粓鏋侊紙鈥渇inal鈥濓級鐨勫寘瑁呭櫒锛屽緢澶氭椂鍊欐垜浠兘浣跨敤瀹冿紒
+数字有 27个
+单词有 206个
+标点符号有： 49个
+Total = 282
+Student [name=xm, age=22]
+Student [name=th, age=18]
+Student [name=sm, age=17]
+Justin	90
+momor	95
+Bush	88
+IO娴?
+1.java.io鍖呬腑鍫靛鍨婭O锛?
+2.java.nio鍖呬腑鐨勯潪鍫靛鍨婭O锛岄?氬父绉颁负New IO
+
+1.娴佸紡閮ㄥ垎鈥曗?旾O鐨勪富浣撻儴鍒嗭紱
+2.闈炴祦寮忛儴鍒嗏?曗?曚富瑕佸寘鍚竴浜涜緟鍔╂祦寮忛儴鍒嗙殑绫伙紝濡傦細File绫汇?丷andomAccessFile绫诲拰FileDescriptor绛夌被锛?
+3.鏂囦欢璇诲彇閮ㄥ垎鐨勪笌瀹夊叏鐩稿叧鐨勭被锛屽锛歋erializablePermission绫汇?備互鍙婁笌鏈湴鎿嶄綔绯荤粺鐩稿叧鐨勬枃浠剁郴缁熺殑绫伙紝濡傦細FileSystem绫诲拰Win32FileSystem绫诲拰WinNTFileSystem绫汇??
+
+ 娴佸紡閮ㄥ垎鍙互姒傛嫭涓猴細涓や釜瀵瑰簲涓?涓ˉ姊併??
+ 涓や釜瀵瑰簲鎸囷細
+ 1.瀛楄妭娴侊紙Byte Stream锛夊拰瀛楃娴侊紙Char Stream锛夌殑瀵瑰簲锛?
+ 2.杈撳叆鍜岃緭鍑虹殑瀵瑰簲銆?
+   涓?涓ˉ姊佹寚锛氫粠瀛楄妭娴佸埌瀛楃娴佺殑妗ユ銆傚搴斾簬杈撳叆鍜岃緭鍑轰负InputStreamReader鍜孫utputStreamWriter銆?
+    鍦ㄦ祦鐨勫叿浣撶被涓張鍙互鍏蜂綋鍒嗕负锛?
+    1.浠嬭川娴侊紙Media Stream鎴栬?呯О涓哄師濮嬫祦Raw Stream锛夆?曗?曚富瑕佹寚涓?浜涘熀鏈殑娴侊紝
+                 浠栦滑涓昏鏄粠鍏蜂綋鐨勪粙璐ㄤ笂锛屽锛氭枃浠躲?佸唴瀛樼紦鍐插尯锛圔yte鏁扮粍銆丆har鏁扮粍銆丼tringBuffer瀵硅薄锛夌瓑锛岃鍙栨暟鎹紱
+    2.杩囨护娴侊紙Filter Stream锛夆?曗?曚富瑕佹寚鎵?鏈塅ilterInputStream/FilterOutputStream
+                 鍜孎ilterReader/FilterWriter鐨勫瓙绫伙紝涓昏鏄鍏跺寘瑁呯殑绫昏繘琛屾煇浜涚壒瀹氱殑澶勭悊锛屽锛氱紦瀛樼瓑銆?
+
+
+1.瀛楃娴?
+瀛楃鍐欏嚭娴?
+1. Writer鏄墍鏈夌殑杈撳嚭瀛楃娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+2. CharArrayWriter銆丼tringWriter鏄袱绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆鍚慍har鏁扮粍銆丼tring涓啓鍏ユ暟鎹?侾ipedWriter鏄悜涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓啓鍏ユ暟鎹紝
+3. BufferedWriter鏄竴涓楗板櫒涓篧riter鎻愪緵缂撳啿鍔熻兘銆?
+4. PrintWriter鍜孭rintStream鏋佸叾绫讳技锛屽姛鑳藉拰浣跨敤涔熼潪甯哥浉浼笺??
+5. OutputStreamWriter鏄疧utputStream鍒癢riter杞崲鐨勬ˉ姊侊紝瀹冪殑瀛愮被FileWriter鍏跺疄灏辨槸涓?涓疄鐜版鍔熻兘鐨勫叿浣撶被锛堝叿浣撳彲浠ョ爺绌朵竴涓婼ource Code锛夈??
+
+java.io.Writer
+All Implemented Interfaces: 
+	Closeable, Flushable, Appendable, AutoCloseable 
+
+Direct Known Subclasses: 
+	BufferedWriter
+	CharArrayWriter
+	FilterWriter
+	OutputStreamWriter ---> FileWriter 
+	PipedWriter
+	PrintWriter
+	StringWriter 
+
+瀛楃璇诲叆娴?	
+1.Reader鏄墍鏈夌殑杈撳叆瀛楃娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+2.CharReader銆丼tringReader鏄袱绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆灏咰har鏁扮粍銆丼tring涓鍙栨暟鎹?侾ipedReader鏄粠涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓鍙栨暟鎹??
+3.BufferedReader寰堟槑鏄惧氨鏄竴涓楗板櫒锛屽畠鍜屽叾瀛愮被璐熻矗瑁呴グ鍏跺畠Reader瀵硅薄銆?
+4.FilterReader鏄墍鏈夎嚜瀹氫箟鍏蜂綋瑁呴グ娴佺殑鐖剁被锛屽叾瀛愮被PushbackReader瀵筊eader瀵硅薄杩涜瑁呴グ锛屼細澧炲姞涓?涓鍙枫??
+5.InputStreamReader鏄竴涓繛鎺ュ瓧鑺傛祦鍜屽瓧绗︽祦鐨勬ˉ姊侊紝瀹冨皢瀛楄妭娴佽浆鍙樹负瀛楃娴併?侳ileReader鍙互璇存槸涓?涓揪鍒版鍔熻兘銆佸父鐢ㄧ殑宸ュ叿绫伙紝鍦ㄥ叾婧愪唬鐮佷腑鏄庢樉浣跨敤浜嗗皢FileInputStream杞彉涓篟eader鐨勬柟娉曘?傛垜浠彲浠ヤ粠杩欎釜绫讳腑寰楀埌涓?瀹氱殑鎶?宸с??
+
+java.io.Reader 
+All Implemented Interfaces: 
+	Closeable, AutoCloseable, Readable 
+
+Direct Known Subclasses: 
+	BufferedReader    ---> LineNumberReader
+	CharArrayReader 
+	FilterReader      --->  PushbackReader 
+	InputStreamReader --->  FileReader 
+	PipedReader
+	StringReader 
+	
+	
+	
+2.瀛楄妭娴?
+瀛楄妭杈撳叆娴?
+1. InputStream鏄墍鏈夌殑杈撳叆瀛楄妭娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+2. ByteArrayInputStream銆丼tringBufferInputStream銆丗ileInputStream鏄笁绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆灏咮yte鏁扮粍銆丼tringBuffer銆佸拰鏈湴鏂囦欢涓鍙栨暟鎹?侾ipedInputStream鏄粠涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓鍙栨暟鎹??
+3. ObjectInputStream鍜屾墍鏈塅ilterInputStream鐨勫瓙绫婚兘鏄楗版祦锛堣楗板櫒妯″紡鐨勪富瑙掞級銆?
+
+
+
+java.io.InputStream  鏄墍鏈夌殑杈撳叆瀛楄妭娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被
+All Implemented Interfaces: 
+	Closeable, AutoCloseable 
+	
+Direct Known Subclasses: 
+	AudioInputStream
+	InputStream  --->  org.omg.CORBA.portable.InputStream 
+	ObjectInputStream 
+	ByteArrayInputStream 
+		灏嗗唴瀛樹腑鐨凚yte鏁扮粍閫傞厤涓轰竴涓狪nputStream銆備粠鍐呭瓨涓殑Byte鏁扮粍鍒涘缓璇ュ璞★紙2绉嶆柟娉曪級
+	            涓?鑸綔涓烘暟鎹簮锛屼細浣跨敤鍏跺畠瑁呴グ娴佹彁渚涢澶栫殑鍔熻兘锛屼竴鑸兘寤鸿鍔犱釜缂撳啿鍔熻兘銆?
+	StringBufferInputStream  
+		灏嗗唴瀛樹腑鐨勫瓧绗︿覆閫傞厤涓轰竴涓狪nputStream銆?
+	             浠庝竴涓猄tring瀵硅薄鍒涘缓璇ュ璞°?傚簳灞傜殑瀹炵幇浣跨敤StringBuffer銆傝绫昏Deprecated銆備富瑕佸師鍥犳槸StringBuffer涓嶅簲璇ュ睘浜庡瓧鑺傛祦锛屾墍浠ユ帹鑽愪娇鐢⊿tringReader銆?
+		 涓?鑸綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?				              
+	FileInputStream  	
+		鏈?鍩烘湰鐨勬枃浠惰緭鍏ユ祦銆備富瑕佺敤浜庝粠鏂囦欢涓鍙栦俊鎭??
+		閫氳繃涓?涓唬琛ㄦ枃浠惰矾寰勭殑 String銆丗ile瀵硅薄鎴栬?? FileDescriptor瀵硅薄鍒涘缓銆?
+		涓?鑸綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?
+	PipedInputStream 
+		璇诲彇浠庡搴擯ipedOutputStream鍐欏叆鐨勬暟鎹?傚湪娴佷腑瀹炵幇浜嗙閬撶殑姒傚康銆?
+	            鍒╃敤瀵瑰簲鐨凱ipedOutputStream鍒涘缓銆?
+	            鍦ㄥ绾跨▼绋嬪簭涓綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?
+	SequenceInputStream 
+		灏?2涓垨鑰呭涓狪nputStream 瀵硅薄杞彉涓轰竴涓狪nputStream.
+		浣跨敤涓や釜InputStream 鎴栬?呭唴閮ㄥ璞′负InputStream 鐨凟numeration瀵硅薄鍒涘缓璇ュ璞°??
+		涓?鑸綔涓烘暟鎹簮锛屽悓鏍蜂細浣跨敤鍏跺畠瑁呴グ鍣ㄦ彁渚涢澶栫殑鍔熻兘銆?
+	FilterInputStream 
+		缁欏叾瀹冭瑁呴グ瀵硅薄鎻愪緵棰濆鍔熻兘鐨勬娊璞＄被
+		Direct Known Subclasses:
+		    CheckedInputStream 
+			CipherInputStream 
+			DeflaterInputStream 
+			ProgressMonitorInputStream 
+			DigestInputStream 
+			InflaterInputStream  
+			BufferedInputStream 
+				浣跨敤璇ュ璞￠樆姝㈡瘡娆¤鍙栦竴涓瓧鑺傞兘浼氶绻佹搷浣淚O銆傚皢瀛楄妭璇诲彇涓?涓紦瀛樺尯锛屼粠缂撳瓨鍖鸿鍙栥??
+				鍒╃敤涓?涓狪nputStream銆佹垨鑰呭甫涓婁竴涓嚜瀹氫箟鐨勭紦瀛樺尯鐨勫ぇ灏忔瀯閫犮??
+				浣跨敤InputStream鐨勬柟娉曡鍙栵紝鍙槸鑳屽悗澶氫竴涓紦瀛樼殑鍔熻兘銆傝璁℃ā寮忎腑閫忔槑瑁呴グ鍣ㄧ殑搴旂敤銆?
+			DataInputStream 
+				涓?鑸拰DataOutputStream閰嶅浣跨敤,瀹屾垚鍩烘湰鏁版嵁绫诲瀷鐨勮鍐欍??
+				鍒╃敤涓?涓狪nputStream鏋勯?犮??
+				鎻愪緵浜嗗ぇ閲忕殑璇诲彇鍩烘湰鏁版嵁绫绘柊鐨勮鍙栨柟娉曘??
+			LineNumberInputStream
+				璺熻釜杈撳叆娴佷腑鐨勮鍙枫?傚彲浠ヨ皟鐢╣etLineNumber( )鍜? setLineNumber(int)鏂规硶寰楀埌鍜岃缃鍙枫??
+				鍒╃敤涓?涓狪nputStream鏋勯?犮??
+				绱х揣澧炲姞涓?涓鍙枫?傚彲浠ヨ薄浣跨敤鍏跺畠InputStream涓?鏍蜂娇鐢ㄣ??
+			PushbackInputStream 
+				鍙互鍦ㄨ鍙栨渶鍚庝竴涓猙yte 鍚庡皢鍏舵斁鍥炲埌缂撳瓨涓??
+				鍒╃敤涓?涓狪nputStream鏋勯?犮??
+				涓?鑸粎浠呬細鍦ㄨ璁ompiler鐨剆canner 鏃朵細鐢ㄥ埌杩欎釜绫汇?傚湪鎴戜滑鐨刯ava璇█鐨勭紪璇戝櫒涓娇鐢ㄥ畠銆傚緢澶氱▼搴忓憳鍙兘涓?杈堝瓙閮戒笉闇?瑕併??
+	
+	
+	
+瀛楄妭杈撳嚭娴?	
+1. OutputStream鏄墍鏈夌殑杈撳嚭瀛楄妭娴佺殑鐖剁被锛屽畠鏄竴涓娊璞＄被銆?
+2. ByteArrayOutputStream銆丗ileOutputStream鏄袱绉嶅熀鏈殑浠嬭川娴侊紝瀹冧滑鍒嗗埆鍚態yte鏁扮粍銆佸拰鏈湴鏂囦欢涓啓鍏ユ暟鎹?侾ipedOutputStream鏄悜涓庡叾瀹冪嚎绋嬪叡鐢ㄧ殑绠￠亾涓啓鍏ユ暟鎹?? 
+3. ObjectOutputStream鍜屾墍鏈塅ilterOutputStream鐨勫瓙绫婚兘鏄楗版祦銆?
+java.io.OutputStream 
+All Implemented Interfaces: 
+	Closeable, Flushable, AutoCloseable 
+	
+Direct Known Subclasses: 
+	ObjectOutputStream 
+	OutputStream       --->   org.omg.CORBA.portable.OutputStream 
+	ByteArrayOutputStream 
+		鍦ㄥ唴瀛樹腑鍒涘缓涓?涓猙uffer銆傛墍鏈夊啓鍏ユ娴佷腑鐨勬暟鎹兘琚斁鍏ュ埌姝uffer涓??
+                        鏃犲弬鎴栬?呬娇鐢ㄤ竴涓彲閫夌殑鍒濆鍖朾uffer鐨勫ぇ灏忕殑鍙傛暟鏋勯?犮??
+	            涓?鑸皢鍏跺拰FilterOutputStream濂楁帴寰楀埌棰濆鐨勫姛鑳姐?傚缓璁鍏堝拰BufferedOutputStream濂楁帴瀹炵幇缂撳啿鍔熻兘銆傞?氳繃toByteArray鏂规硶鍙互寰楀埌娴佷腑鐨勬暟鎹?傦紙涓嶉?氭槑瑁呴グ鍣ㄧ殑鐢ㄦ硶锛?
+	FileOutputStream 
+		灏嗕俊鎭啓鍏ユ枃浠朵腑銆?
+		浣跨敤浠ｈ〃鏂囦欢璺緞鐨凷tring銆丗ile瀵硅薄鎴栬?? FileDescriptor瀵硅薄鍒涘缓銆傝繕鍙互鍔犱竴涓唬琛ㄥ啓鍏ョ殑鏂瑰紡鏄惁涓篴ppend鐨勬爣璁般??
+		涓?鑸皢鍏跺拰FilterOutputStream濂楁帴寰楀埌棰濆鐨勫姛鑳姐??
+	PipedOutputStream   
+		浠讳綍鍐欏叆姝ゅ璞＄殑淇℃伅閮借鏀惧叆瀵瑰簲PipedInputStream 瀵硅薄鐨勭紦瀛樹腑锛屼粠鑰屽畬鎴愮嚎绋嬬殑閫氫俊锛屽疄鐜颁簡鈥滅閬撯?濈殑姒傚康銆傚叿浣撳湪鍚庨潰璇︾粏璁茶В銆?
+		鍒╃敤PipedInputStream鏋勯??
+		鍦ㄥ绾跨▼绋嬪簭涓暟鎹殑鐩殑鍦扮殑銆備竴鑸皢鍏跺拰FilterOutputStream濂楁帴寰楀埌棰濆鐨勫姛
+	FilterOutputStream 
+		瀹炵幇瑁呴グ鍣ㄥ姛鑳界殑鎶借薄绫汇?備负鍏跺畠OutputStream瀵硅薄澧炲姞棰濆鐨勫姛鑳姐??
+		Direct Known Subclasses: 
+		    CheckedOutputStream 
+    		CipherOutputStream 
+    		DeflaterOutputStream 
+    		DigestOutputStream 
+    		InflaterOutputStream 
+    		BufferedOutputStream 
+    			浣跨敤瀹冨彲浠ラ伩鍏嶉绻佸湴鍚慖O鍐欏叆鏁版嵁锛屾暟鎹竴鑸兘鍐欏叆涓?涓紦瀛樺尯锛屽湪璋冪敤flush鏂规硶鍚庝細娓呯┖缂撳瓨銆佷竴娆″畬鎴愭暟鎹殑鍐欏叆銆?
+				浠庝竴涓狾utputStream鎴栬?呭拰涓?涓唬琛ㄧ紦瀛樺尯澶у皬鐨勫彲閫夊弬鏁版瀯閫犮??
+				鎻愪緵鍜屽叾瀹僌utputStream涓?鑷寸殑鎺ュ彛锛屽彧鏄唴閮ㄦ彁渚涗竴涓紦瀛樼殑鍔熻兘銆?
+    		DataOutputStream 
+    			閫氬父鍜孌ataInputStream閰嶅悎浣跨敤锛屼娇鐢ㄥ畠鍙互鍐欏叆鍩烘湰鏁版嵁绫绘柊銆?
+				浣跨敤OutputStream鏋勯??
+				鍖呭惈澶ч噺鐨勫啓鍏ュ熀鏈暟鎹被鍨嬬殑鏂规硶銆?
+    		PrintStream 	
+    			浜х敓鍏锋湁鏍煎紡鐨勮緭鍑轰俊鎭?傦紙涓?鑸湴鍦╦ava绋嬪簭涓璂ataOutputStream鐢ㄤ簬鏁版嵁鐨勫瓨鍌紝鍗矹2EE涓寔涔呭眰瀹屾垚鐨勫姛鑳斤紝PrintStream瀹屾垚鏄剧ず鐨勫姛鑳斤紝绫讳技浜嶫2EE涓〃鐜板眰鐨勫姛鑳斤級
+				浣跨敤OutputStream鍜屼竴涓彲閫夌殑琛ㄧず缂撳瓨鏄惁鍦ㄦ瘡娆℃崲琛屾椂鏄惁flush鐨勬爣璁版瀯閫犮?傝繕鎻愪緵寰堝鍜屾枃浠剁浉鍏崇殑鏋勯?犳柟娉曘??
+				涓?鑸槸涓?涓粓鏋侊紙鈥渇inal鈥濓級鐨勫寘瑁呭櫒锛屽緢澶氭椂鍊欐垜浠兘浣跨敤瀹冿紒	
+
+	
+
+
+	

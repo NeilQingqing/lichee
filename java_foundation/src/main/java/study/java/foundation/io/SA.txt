@@ -1,0 +1,227 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>study.java.foundation</groupId>
+  <artifactId>java_foundation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>java_foundation</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <profiles> 
+    <profile>
+  <repositories>  
+    <repository>  
+        <!-- Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id就会覆盖中央仓库的配�? -->
+        <id>mvnrepository</id>  
+        <name>mvnrepository</name>  
+        <url>http://www.mvnrepository.com/</url>  
+        <layout>default</layout>  
+        <releases>  
+            <enabled>true</enabled>  
+        </releases>  
+        <snapshots>  
+            <enabled>false</enabled>  
+        </snapshots>  
+    </repository>  
+    <repository>  
+        <!-- Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id就会覆盖中央仓库的配�? -->
+        <id>milestonerepository</id>  
+        <name>milestonerepository</name>  
+        <url>http://repo.spring.io/milestone/</url>  
+        <layout>default</layout>  
+        <releases>  
+            <enabled>true</enabled>  
+        </releases>  
+        <snapshots>  
+            <enabled>false</enabled>  
+        </snapshots>  
+    </repository>  
+	</repositories> 
+   </profile>
+  </profiles> 
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit
+    * compile，缺省�?�，适用于所有阶段，会随�?项目�?起发布�?? 
+    * provided，类似compile，期望JDK、容器或使用者会提供这个依赖。如servlet.jar�? 
+    * runtime，只在运行时使用，如JDBC驱动，�?�用运行和测试阶段�?? 
+    * test，只在测试时使用，用于编译和运行测试代码。不会随项目发布�? 
+    * system，类似provided，需要显式提供包含依赖的jar，Maven不会在Repository中查找它�? 
+     -->
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/cglib/cglib-full -->
+	<dependency>
+	    <groupId>cglib</groupId>
+	    <artifactId>cglib-full</artifactId>
+	    <version>2.0.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/cglib/cglib-nodep 
+	<dependency>
+	    <groupId>cglib</groupId>
+	    <artifactId>cglib-nodep</artifactId>
+	    <version>3.2.5</version>
+	</dependency>
+	-->
+	<!-- https://mvnrepository.com/artifact/cglib/cglib 
+	<dependency>
+	    <groupId>cglib</groupId>
+	    <artifactId>cglib</artifactId>
+	    <version>3.2.5</version>
+	</dependency>
+	-->
+	
+	<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+	<dependency>
+	    <groupId>io.netty</groupId>
+	    <artifactId>netty-all</artifactId>
+	    <version>5.0.0.Alpha2</version>
+	</dependency>
+	 
+	<!-- https://mvnrepository.com/artifact/io.netty/netty-all 
+	<dependency>
+	    <groupId>io.netty</groupId>
+	    <artifactId>netty-all</artifactId>
+	    <version>4.1.15.Final</version>
+	</dependency>
+    -->
+    
+    <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+	<dependency>
+	    <groupId>com.google.protobuf</groupId>
+	    <artifactId>protobuf-java</artifactId>
+	    <version>3.4.0</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java-util -->
+	<dependency>
+	    <groupId>com.google.protobuf</groupId>
+	    <artifactId>protobuf-java-util</artifactId>
+	    <version>3.4.0</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.googlecode.protobuf-java-format/protobuf-java-format -->
+	<dependency>
+	    <groupId>com.googlecode.protobuf-java-format</groupId>
+	    <artifactId>protobuf-java-format</artifactId>
+	    <version>1.4</version>
+	    <scope>compile</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
+	<dependency>
+	    <groupId>org.apache.thrift</groupId>
+	    <artifactId>libthrift</artifactId>
+	    <version>0.10.0</version>
+	    <type>pom</type>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-core</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-beans</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-web</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-test</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-aop</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-orm</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jdbc</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-tx</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-jms -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jms</artifactId>
+	    <version>5.0.0.RC3</version>
+	    <scope>compile</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
+	<dependency>
+	    <groupId>org.springframework.security</groupId>
+	    <artifactId>spring-security-core</artifactId>
+	    <version>5.0.0.M3</version>
+	    <scope>compile</scope>
+	</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring 
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring</artifactId>
+	    <version>3.2.0.RC1</version>
+	    <scope>compile</scope>
+	</dependency>
+	-->
+    
+  </dependencies>
+</project>
+Test  byteBuffer
