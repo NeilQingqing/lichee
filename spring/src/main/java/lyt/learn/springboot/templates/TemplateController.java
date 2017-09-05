@@ -29,13 +29,14 @@ public class TemplateController {
 	}
 	
 	
-	@RequestMapping(value="/jsp1")
-	public String jspHello(Map<String,Object> result){
-//		ModelAndView modelAndView = new ModelAndView("thymeleaf") ;
-//		return modelAndView;
-		result.put("name", "JSP");
-		// ||
-		return "index"; //返回值值就是 templates 的名称
-	}
+//	@RequestMapping(value="/jsp1")
+////	@ResponseBody
+//	public String jspHello(Map<String,Object> result){
+////		ModelAndView modelAndView = new ModelAndView("thymeleaf") ;
+////		return modelAndView;
+//		result.put("name", "JSP");
+//		// ||
+//		return "index"; //返回值值就是 templates 的名称
+//	}
 	
 }

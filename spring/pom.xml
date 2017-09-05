@@ -1,13 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>study.java.foundation</groupId>
   <artifactId>spring</artifactId>
-  <packaging>war</packaging>
+  <!-- <packaging>war</packaging> -->
   <version>0.0.1-SNAPSHOT</version>
   <name>spring Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <!--  Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id就会覆盖中央仓库的配置-->
+  <packaging>pom</packaging>
+   <modules>  
+    <module>spring-boot-jsp</module>
+  </modules>  
   <profiles>
   <profile>
   <repositories>  
